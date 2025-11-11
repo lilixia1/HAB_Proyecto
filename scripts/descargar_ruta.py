@@ -39,9 +39,9 @@ os.makedirs(datadir, exist_ok=True)
 output_file = "genes_ruta.txt"
 output_path = os.path.join(datadir, output_file)
 
-with open(output_file, "w") as f:
+with open(output_path, "w") as f:
     for g in genes_ruta:
         f.write(g + "\n")
 
-print(f"Genes guardados en: data/{output_file}")
+print(f"Genes guardados en: data/{output_path}")
 
