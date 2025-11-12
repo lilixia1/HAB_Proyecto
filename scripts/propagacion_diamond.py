@@ -152,28 +152,24 @@ def diamond_iteration_of_first_X_nodes(G, S, X, alpha=1):
 #                         FUNCIONES DE GUARDADO
 # ----------------------------------------------------------------------
 def guardar_resultados(seed_genes_hugo, diamond_genes_hugo, archivo_salida):
-    all_genes_hugo = list(set(seed_genes_hugo + diamond_genes_hugo))
+    """
+    Guarda solo los genes añadidos por DIAMOnD en un archivo TSV. 
+    """
     
-    data = []
+    # 1. Crear el conjunto de genes añadidos, excluyendo cualquier duplicado con las semillas
+    # (Aunque diamond_genes ya debería excluir las semillas, es una doble verificación)
     seed_set = set(seed_genes_hugo)
-    diamond_set = set(diamond_genes_hugo)
-    
-    for hugo_symbol in all_genes_hugo:
-        
-        tipo = []
-        if hugo_symbol in seed_set:
-            tipo.append('Seed_Gene')
-        if hugo_symbol in diamond_set:
-            tipo.append('DIAMOnD_Added')
-            
+    diamond_only_genes = [gene for gene in diamond_genes_hugo if gene not in seed_set]
+
+    data = []
+    for hugo_symbol in diamond_only_genes:
         data.append({
-            'HUGO_Symbol': hugo_symbol, 
-            'Tipo': '|'.join(tipo)
+            'HUGO_Symbol': hugo_symbol
         })
-        
+
     results_df = pd.DataFrame(data)
     results_df.to_csv(archivo_salida, sep="\t", index=False)
-    print(f"\nResultados de DIAMOnD guardados en: {archivo_salida}")
+    print(f"\nResultados de DIAMOnD guardados en: {archivo_salida} ({len(results_df)} genes)")
 
 def graficar_red_enriquecida(G, seed_genes_hugo, diamond_genes_hugo, output_image_file):
     
@@ -182,7 +178,7 @@ def graficar_red_enriquecida(G, seed_genes_hugo, diamond_genes_hugo, output_imag
     subgraph = G.subgraph(all_nodes)
     
     if len(subgraph.nodes) < 2:
-        print("⚠️ Advertencia: Grafo enriquecido demasiado pequeño para dibujar.")
+        print("Advertencia: Grafo enriquecido demasiado pequeño para dibujar.")
         return
 
     # 2. Calcular posiciones (solo para los nodos del subgrafo)
