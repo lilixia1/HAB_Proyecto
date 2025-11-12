@@ -6,7 +6,7 @@ import os
 LIBRARY = "KEGG_2021_Human"
 
 # 2. Nombre (o parte del nombre) de la ruta que quieres
-BUSCADA = "apoptosis"  
+BUSCADA = "autophagy"  
 
 # 3. Descargar todas las rutas de esa librería
 genesets = gp.get_library(name=LIBRARY, organism="Human")
