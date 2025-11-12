@@ -4,19 +4,18 @@
 import os
 import argparse
 import pandas as pd
-from mygene import MyGeneInfo
 from tqdm import tqdm
 import networkx as nx
 import scipy.stats
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.special
-import requests
 import operator
-import importlib
-import subprocess
-import sys
 
+# --- Parámetros Globales ---
+nodos_añadidos = 200
+especie = 'human' # Se mantiene solo por consistencia, pero no se usa para mapeo
+UMBRAL_SCORE = 700
 
 # ----------------------------------------------------------------------
 #                   FUNCIONES DE LECTURA Y CONVERSIÓN
@@ -148,3 +147,159 @@ def diamond_iteration_of_first_X_nodes(G, S, X, alpha=1):
             break
             
     return added_nodes
+
+# ----------------------------------------------------------------------
+#                         FUNCIONES DE GUARDADO
+# ----------------------------------------------------------------------
+def guardar_resultados(seed_genes_hugo, diamond_genes_hugo, archivo_salida):
+    all_genes_hugo = list(set(seed_genes_hugo + diamond_genes_hugo))
+    
+    data = []
+    seed_set = set(seed_genes_hugo)
+    diamond_set = set(diamond_genes_hugo)
+    
+    for hugo_symbol in all_genes_hugo:
+        
+        tipo = []
+        if hugo_symbol in seed_set:
+            tipo.append('Seed_Gene')
+        if hugo_symbol in diamond_set:
+            tipo.append('DIAMOnD_Added')
+            
+        data.append({
+            'HUGO_Symbol': hugo_symbol, 
+            'Tipo': '|'.join(tipo)
+        })
+        
+    results_df = pd.DataFrame(data)
+    results_df.to_csv(archivo_salida, sep="\t", index=False)
+    print(f"\nResultados de DIAMOnD guardados en: {archivo_salida}")
+
+def graficar_red_enriquecida(G, seed_genes_hugo, diamond_genes_hugo, output_image_file):
+    
+    all_nodes = set(seed_genes_hugo) | set(diamond_genes_hugo)
+    # 1. Crear el subgrafo
+    subgraph = G.subgraph(all_nodes)
+    
+    if len(subgraph.nodes) < 2:
+        print("⚠️ Advertencia: Grafo enriquecido demasiado pequeño para dibujar.")
+        return
+
+    # 2. Calcular posiciones (solo para los nodos del subgrafo)
+    pos = nx.spring_layout(subgraph, k=0.15, iterations=20) 
+    plt.figure(figsize=(12, 12))
+
+    # 3. FILTRADO CRÍTICO: Asegurarse de que solo se dibuje lo que está en 'pos'
+    
+    # Filtrar Semillas
+    seed_genes_presentes = [n for n in seed_genes_hugo if n in pos] 
+    
+    # Filtrar DIAMOnD (los que no son semilla)
+    diamond_only = list((set(diamond_genes_hugo) - set(seed_genes_hugo)) & set(pos.keys()))
+    
+    # --- DIBUJADO ---
+
+    # Nodos de semillas (Azul)
+    nx.draw_networkx_nodes(subgraph, pos, nodelist=seed_genes_presentes, node_color='blue', node_size=800, label="Seed Genes", alpha=0.8)
+
+    # Nodos DIAMOnD (Naranja)
+    nx.draw_networkx_nodes(subgraph, pos, nodelist=diamond_only, node_color='orange', node_size=500, label="DIAMOnD Added", alpha=0.7)
+    
+    # ... (el resto del código sigue igual)
+    
+    # Etiquetas:
+    node_labels = {n: n for n in subgraph.nodes()} 
+    nx.draw_networkx_labels(subgraph, pos, labels=node_labels, font_size=8, font_weight='bold')
+    plt.legend(loc="upper left", markerscale=0.7)
+    plt.title(f"Red Enriquecida con DIAMOnD ({len(subgraph.nodes)} Nodos)")
+    plt.axis('off')
+    
+    try:
+        plt.savefig(output_image_file, format='png', bbox_inches='tight')
+        print(f"Grafo de DIAMOnD guardado como imagen en: {output_image_file}")
+    except Exception as e:
+        print(f"Error al guardar la imagen: {e}")
+        
+    plt.close()
+
+
+# ----------------------------------------------------------------------
+#                             MAIN CLI
+# ----------------------------------------------------------------------
+
+def main():
+    
+    # 1. Configuración de argparse para CLI
+    parser = argparse.ArgumentParser(
+        description="Propagación de genes en redes de interacción usando DIAMOnD."
+    )
+    parser.add_argument(
+        '--seed-file', 
+        required=True, 
+        help="Ruta al archivo de texto que contiene los genes semilla (HUGO)."
+    )
+    parser.add_argument(
+        '--input', 
+        required=True, 
+        help="Ruta al archivo de entrada de la red (HUGO/TSV)."
+    )
+    parser.add_argument(
+        '--output', 
+        default='diamond_results.tsv', 
+        help="Nombre del archivo de resultados TSV."
+    )
+    parser.add_argument(
+        '--plot',
+        default='diamond_network.png', 
+        help="Nombre del archivo para la imagen de la red DIAMOnD."
+    )
+    args = parser.parse_args()
+    
+    print(f"---Iniciando Propagación DIAMOnD ---")
+    
+    # 2. Creación de la Carpeta de Resultados
+    RESULTS_DIR = "results"
+    if not os.path.exists(RESULTS_DIR):
+        os.makedirs(RESULTS_DIR)
+        print(f"📁 Carpeta de resultados creada: {RESULTS_DIR}")
+
+    output_tsv_path = os.path.join(RESULTS_DIR, args.output)
+    output_plot_path = os.path.join(RESULTS_DIR, args.plot)
+    print(f"Archivo de entrada de la red: {args.input}")
+    
+    ## 3. CARGA DE DATOS
+    genes_semilla_hugo = importar_genes(args.seed_file)
+    
+    if not genes_semilla_hugo:
+        return
+        
+    # Carga y filtrado (usando el alto umbral definido)
+    interacciones = cargar_red_conocida(args.input)
+    if interacciones is None or interacciones.empty:
+        return
+
+    ## 4. CONSTRUIR GRAFO
+    # Se usa el dataframe filtrado y los símbolos HUGO directamente
+    red = construir_red(interacciones, genes_semilla_hugo)
+    
+    if len(red.nodes) == 0:
+        print("El grafo está vacío. No se puede ejecutar la propagación.")
+        return
+
+    # Determinamos el número real de nodos a añadir
+    n = min(nodos_añadidos, len(red.nodes) - len(genes_semilla_hugo))
+    if n <= 0:
+        print("No hay nodos para añadir o la red es muy pequeña.")
+        return
+
+    ## 5. EJECUTAR DIAMOnD
+    print(f"\n---Ejecutando DIAMOnD para añadir {n} nodos ---")
+    # S (semillas) y el resultado son HUGO IDs
+    diamond_genes = diamond_iteration_of_first_X_nodes(red, genes_semilla_hugo, n)
+
+    ## 6. GUARDAR Y GRAFICAR RESULTADOS
+    guardar_resultados(genes_semilla_hugo, diamond_genes, output_tsv_path)
+    graficar_red_enriquecida(red, genes_semilla_hugo, diamond_genes, output_plot_path)
+
+if __name__ == '__main__':
+    main()
