@@ -1,2 +1,14 @@
+# Análisis funcional y enriquecimiento
+gseapy
 
+# Manipulación de datos
+pandas
+numpy
+scipy
 
+# Redes y propagación
+networkx
+tqdm
+
+# Visualización
+matplotlib
