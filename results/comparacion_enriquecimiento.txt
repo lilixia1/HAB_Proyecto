@@ -6,39 +6,39 @@ Pathways of neurodegeneration
 Shigellosis
 
 Términos únicos en Semillas (17):
-FoxO signaling pathway
-PD-L1 expression and PD-1 checkpoint pathway in cancer
-Autophagy
-Mitophagy
-Insulin signaling pathway
-Spinocerebellar ataxia
-Apoptosis
-Colorectal cancer
-PI3K-Akt signaling pathway
-AMPK signaling pathway
-Growth hormone synthesis, secretion and action
-Longevity regulating pathway
-Apelin signaling pathway
-Alzheimer disease
 mTOR signaling pathway
+Autophagy
+Apelin signaling pathway
+Mitophagy
+Alzheimer disease
 Kaposi sarcoma-associated herpesvirus infection
+Colorectal cancer
+FoxO signaling pathway
+AMPK signaling pathway
+PD-L1 expression and PD-1 checkpoint pathway in cancer
+Spinocerebellar ataxia
 Choline metabolism in cancer
+Insulin signaling pathway
+Longevity regulating pathway
+Growth hormone synthesis, secretion and action
+PI3K-Akt signaling pathway
+Apoptosis
 
 Términos únicos en Candidatos (17):
-Parkinson disease
-Huntington disease
-ErbB signaling pathway
-Leukocyte transendothelial migration
-Thermogenesis
-Pathways in cancer
-Hepatocellular carcinoma
-Amyotrophic lateral sclerosis
 Rap1 signaling pathway
+ErbB signaling pathway
+Pathways in cancer
 Neutrophil extracellular trap formation
-Melanoma
-Regulation of actin cytoskeleton
-Salmonella infection
-Diabetic cardiomyopathy
-Oxidative phosphorylation
-MAPK signaling pathway
+Hepatocellular carcinoma
 Ras signaling pathway
+Melanoma
+Leukocyte transendothelial migration
+MAPK signaling pathway
+Regulation of actin cytoskeleton
+Amyotrophic lateral sclerosis
+Oxidative phosphorylation
+Parkinson disease
+Diabetic cardiomyopathy
+Salmonella infection
+Thermogenesis
+Huntington disease

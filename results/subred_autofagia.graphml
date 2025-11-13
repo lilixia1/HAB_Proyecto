@@ -1,0 +1,5852 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="ATG10" />
+    <node id="PRKCI" />
+    <node id="CLIP1" />
+    <node id="HACL1" />
+    <node id="BATF2" />
+    <node id="CTSB" />
+    <node id="MAPK9" />
+    <node id="PIK3CA" />
+    <node id="PLCG1" />
+    <node id="RAB7A" />
+    <node id="RRAS" />
+    <node id="ZFAND2B" />
+    <node id="IGBP1C" />
+    <node id="CAMKK2" />
+    <node id="PTPN12" />
+    <node id="KLHL18" />
+    <node id="RPL41" />
+    <node id="RUBCN" />
+    <node id="CARD9" />
+    <node id="VAMP8" />
+    <node id="MRPS22" />
+    <node id="UVRAG" />
+    <node id="MASTL" />
+    <node id="MKNK2" />
+    <node id="SRFBP1" />
+    <node id="COX5B" />
+    <node id="CNTROB" />
+    <node id="RBL1" />
+    <node id="MTMR3" />
+    <node id="ERLIN1" />
+    <node id="ATG4D" />
+    <node id="UBE2L6" />
+    <node id="ATG2A" />
+    <node id="IRS4" />
+    <node id="PRAP1" />
+    <node id="RRAS2" />
+    <node id="LAMP2" />
+    <node id="FGF23" />
+    <node id="BCL2A1" />
+    <node id="PDPK1" />
+    <node id="ATG4B" />
+    <node id="CHRM3" />
+    <node id="ATG12" />
+    <node id="PDGFRB" />
+    <node id="RB1CC1" />
+    <node id="GABRB2" />
+    <node id="FGF12" />
+    <node id="SH3GLB1" />
+    <node id="TEX264" />
+    <node id="BNIP3" />
+    <node id="ELL" />
+    <node id="LAMTOR5" />
+    <node id="GTPBP8" />
+    <node id="KLHL6" />
+    <node id="UTP4" />
+    <node id="MECOM" />
+    <node id="WIPI1" />
+    <node id="RRAGD" />
+    <node id="BCL2L1" />
+    <node id="PIK3CD" />
+    <node id="MFSD8" />
+    <node id="C1ORF198" />
+    <node id="PLCG2" />
+    <node id="MLST8" />
+    <node id="PSMG3" />
+    <node id="ULK2" />
+    <node id="EIF3L" />
+    <node id="RINT1" />
+    <node id="TRAF6" />
+    <node id="SRPRA" />
+    <node id="ZFYVE1" />
+    <node id="GNRH1" />
+    <node id="PHF11" />
+    <node id="IRS2" />
+    <node id="CPSF4" />
+    <node id="NDUFAF5" />
+    <node id="STX17" />
+    <node id="FGF19" />
+    <node id="TMEM208" />
+    <node id="SLC10A2" />
+    <node id="CYTH2" />
+    <node id="PRKAA2" />
+    <node id="MRPL40" />
+    <node id="WDCP" />
+    <node id="TRIB3" />
+    <node id="AFDN" />
+    <node id="CRACR2A" />
+    <node id="RPTOR" />
+    <node id="RGN" />
+    <node id="PRKCD" />
+    <node id="POLR2E" />
+    <node id="CD2AP" />
+    <node id="SUV39H2" />
+    <node id="PIK3R1" />
+    <node id="BCL2" />
+    <node id="IRF1" />
+    <node id="USE1" />
+    <node id="PNLIP" />
+    <node id="IGBP1" />
+    <node id="ERCC6L" />
+    <node id="H4C12" />
+    <node id="AKT1S1" />
+    <node id="PIK3R2" />
+    <node id="KCNN4" />
+    <node id="PRKACB" />
+    <node id="TXK" />
+    <node id="DEPTOR" />
+    <node id="NRBF2" />
+    <node id="RAB7B" />
+    <node id="FMN1" />
+    <node id="ATP5ME" />
+    <node id="EFNA1" />
+    <node id="PRKCG" />
+    <node id="EIF4E3" />
+    <node id="TBK1" />
+    <node id="UBE3A" />
+    <node id="POLA1" />
+    <node id="H4C14" />
+    <node id="PRKACA" />
+    <node id="MAP2K2" />
+    <node id="RRM2B" />
+    <node id="ATG4A" />
+    <node id="RPS6KA6" />
+    <node id="R3HDM4" />
+    <node id="GIMAP6" />
+    <node id="KRAS" />
+    <node id="INPP5D" />
+    <node id="SPSB3" />
+    <node id="H2BC1" />
+    <node id="GABARAPL1" />
+    <node id="H3-5" />
+    <node id="TUBA4B" />
+    <node id="EXO1" />
+    <node id="ATG2B" />
+    <node id="STRN3" />
+    <node id="DAPK3" />
+    <node id="TK2" />
+    <node id="ATG16L2" />
+    <node id="PIK3C3" />
+    <node id="SQSTM1" />
+    <node id="AGO2" />
+    <node id="GLIPR2" />
+    <node id="APOBEC3H" />
+    <node id="ATG16L1" />
+    <node id="HGF" />
+    <node id="SSRP1" />
+    <node id="H3C7" />
+    <node id="TSC1" />
+    <node id="AKT1" />
+    <node id="PPP2CB" />
+    <node id="MS4A6A" />
+    <node id="PSMG2" />
+    <node id="AREG" />
+    <node id="TUBA4A" />
+    <node id="WDR75" />
+    <node id="CDK5RAP2" />
+    <node id="MAPK3" />
+    <node id="KCNJ11" />
+    <node id="H2BC26" />
+    <node id="SUPT20H" />
+    <node id="MAP2K1" />
+    <node id="RPS6KB1" />
+    <node id="UTP14A" />
+    <node id="AMBRA1" />
+    <node id="LILRB1" />
+    <node id="RPL17-C18ORF32" />
+    <node id="NDUFAB1" />
+    <node id="STK36" />
+    <node id="PIK3CB" />
+    <node id="TNNI3" />
+    <node id="SCOC" />
+    <node id="IGF1R" />
+    <node id="BCS1L" />
+    <node id="AKT2" />
+    <node id="TRIM8" />
+    <node id="FIG4" />
+    <node id="NOP53" />
+    <node id="CD300C" />
+    <node id="MAPK8" />
+    <node id="DEDD" />
+    <node id="ATG13" />
+    <node id="POLR2L" />
+    <node id="H1-5" />
+    <node id="CRIPT" />
+    <node id="ATG5" />
+    <node id="PRKACG" />
+    <node id="DAPK1" />
+    <node id="RASD2" />
+    <node id="TIMP1" />
+    <node id="RAB39B" />
+    <node id="TCL1A" />
+    <node id="SMU1" />
+    <node id="RAB1A" />
+    <node id="NRG4" />
+    <node id="SMARCA4" />
+    <node id="PFN4" />
+    <node id="PIK3R4" />
+    <node id="MRAS" />
+    <node id="DIMT1" />
+    <node id="TRIM72" />
+    <node id="TBX5" />
+    <node id="ATP7A" />
+    <node id="MAPK1" />
+    <node id="GJA5" />
+    <node id="NPSR1" />
+    <node id="THNSL1" />
+    <node id="TIMP3" />
+    <node id="ATG4C" />
+    <node id="SEC16A" />
+    <node id="HDDC3" />
+    <node id="PSMC5" />
+    <node id="RRAGB" />
+    <node id="RAB8A" />
+    <node id="GFM1" />
+    <node id="CBX2" />
+    <node id="PRKAA1" />
+    <node id="EIF2AK4" />
+    <node id="VMP1" />
+    <node id="MMP9" />
+    <node id="CUL3" />
+    <node id="NDUFV2" />
+    <node id="LAMP1" />
+    <node id="PRKCQ" />
+    <node id="TLK1" />
+    <node id="COX7A1" />
+    <node id="PPP1CC" />
+    <node id="ATG9B" />
+    <node id="RILP" />
+    <node id="ERN1" />
+    <node id="SH3TC2" />
+    <node id="ULK1" />
+    <node id="INS" />
+    <node id="AKT3" />
+    <node id="ATG7" />
+    <node id="HIF1A" />
+    <node id="EME1" />
+    <node id="ATG101" />
+    <node id="CENPW" />
+    <node id="TBC1D7" />
+    <node id="VPS33B" />
+    <node id="SLC30A4" />
+    <node id="BECN2" />
+    <node id="WIPI2" />
+    <node id="E2F2" />
+    <node id="SSU72L2" />
+    <node id="BCLAF1" />
+    <node id="INPP1" />
+    <node id="KICS2" />
+    <node id="EIF2S1" />
+    <node id="ACTR3" />
+    <node id="CTSD" />
+    <node id="CAPZB" />
+    <node id="SMCR8" />
+    <node id="BUD13" />
+    <node id="SKP1" />
+    <node id="SLC39A13" />
+    <node id="HRAS" />
+    <node id="CD300LB" />
+    <node id="PARD6A" />
+    <node id="P3R3URF" />
+    <node id="RRAGA" />
+    <node id="TEX10" />
+    <node id="RAF1" />
+    <node id="DONSON" />
+    <node id="ATP6V0C" />
+    <node id="PRORP" />
+    <node id="PPP2CA" />
+    <node id="RASGRP2" />
+    <node id="ITPR1" />
+    <node id="TAF5L" />
+    <node id="BICD2" />
+    <node id="PSMC1" />
+    <node id="TUBB2A" />
+    <node id="ATG3" />
+    <node id="WNK4" />
+    <node id="MTMR4" />
+    <node id="CTSL" />
+    <node id="MAP3K7" />
+    <node id="LIFR" />
+    <node id="BAD" />
+    <node id="DAPK2" />
+    <node id="PIK3R3" />
+    <node id="KNG1" />
+    <node id="SH3GLB2" />
+    <node id="AICDA" />
+    <node id="CSNK1G3" />
+    <node id="TPX2" />
+    <node id="EPC1" />
+    <node id="FGFR1" />
+    <node id="LRRC45" />
+    <node id="PTEN" />
+    <node id="ATG14" />
+    <node id="GLI1" />
+    <node id="IRS1" />
+    <node id="RRAGC" />
+    <node id="GABARAPL2" />
+    <node id="BECN1" />
+    <node id="RHEB" />
+    <node id="H1-6" />
+    <node id="ACTG1" />
+    <node id="H3C3" />
+    <node id="CPLX1" />
+    <node id="HEBP2" />
+    <node id="RAB33B" />
+    <node id="DDX5" />
+    <node id="DEPDC5" />
+    <node id="STK11" />
+    <node id="EIF2AK3" />
+    <node id="MTMR14" />
+    <node id="KCNK2" />
+    <node id="TLE7" />
+    <node id="ELK1" />
+    <node id="ABCF1" />
+    <node id="TP53INP2" />
+    <node id="DYNC1LI1" />
+    <node id="DDIT4" />
+    <node id="DCTN2" />
+    <node id="TRIM55" />
+    <node id="GABARAP" />
+    <node id="TSC2" />
+    <node id="MTOR" />
+    <node id="CFLAR" />
+    <node id="NRAS" />
+    <node id="HMGB1" />
+    <node id="WDR41" />
+    <node id="RAB11B" />
+    <node id="RPS6KB2" />
+    <node id="RUVBL1" />
+    <node id="RASGRP4" />
+    <node id="SNAP29" />
+    <node id="SPOPL" />
+    <node id="CUL5" />
+    <node id="ATG9A" />
+    <node id="NDUFB10" />
+    <node id="TANK" />
+    <edge source="ATG10" target="RB1CC1">
+      <data key="d0">949</data>
+    </edge>
+    <edge source="ATG10" target="GABARAPL2">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="ATG10" target="ATG14">
+      <data key="d0">841</data>
+    </edge>
+    <edge source="ATG10" target="PIK3C3">
+      <data key="d0">848</data>
+    </edge>
+    <edge source="ATG10" target="WIPI1">
+      <data key="d0">803</data>
+    </edge>
+    <edge source="ATG10" target="WIPI2">
+      <data key="d0">766</data>
+    </edge>
+    <edge source="ATG10" target="GABARAP">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="ATG10" target="ATG13">
+      <data key="d0">978</data>
+    </edge>
+    <edge source="ATG10" target="ATG3">
+      <data key="d0">958</data>
+    </edge>
+    <edge source="ATG10" target="ATG12">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG10" target="ATG4A">
+      <data key="d0">864</data>
+    </edge>
+    <edge source="ATG10" target="ATG101">
+      <data key="d0">843</data>
+    </edge>
+    <edge source="ATG10" target="ATG16L1">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="ATG10" target="ATG4B">
+      <data key="d0">898</data>
+    </edge>
+    <edge source="ATG10" target="PIK3R4">
+      <data key="d0">816</data>
+    </edge>
+    <edge source="ATG10" target="ATG7">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG10" target="ATG5">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="ATG10" target="ATG4D">
+      <data key="d0">848</data>
+    </edge>
+    <edge source="ATG10" target="ATG2A">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="ATG10" target="ATG2B">
+      <data key="d0">725</data>
+    </edge>
+    <edge source="ATG10" target="GABARAPL1">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="ATG10" target="UVRAG">
+      <data key="d0">773</data>
+    </edge>
+    <edge source="ATG10" target="ULK1">
+      <data key="d0">865</data>
+    </edge>
+    <edge source="ATG10" target="BECN1">
+      <data key="d0">848</data>
+    </edge>
+    <edge source="ATG10" target="ULK2">
+      <data key="d0">702</data>
+    </edge>
+    <edge source="ATG10" target="ATG4C">
+      <data key="d0">857</data>
+    </edge>
+    <edge source="PRKCI" target="PARD6A">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PRKCI" target="PPP2CB">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="PRKCI" target="PIK3R2">
+      <data key="d0">916</data>
+    </edge>
+    <edge source="PRKCI" target="PIK3R3">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="PRKCI" target="PIK3CA">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="PRKCI" target="PTEN">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="PRKCI" target="STK11">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="PRKCI" target="PPP2CA">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="PRKCI" target="PIK3R1">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="PRKCI" target="PIK3CD">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="PRKCI" target="SQSTM1">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="PRKCI" target="PIK3CB">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="CLIP1" target="MTOR">
+      <data key="d0">946</data>
+    </edge>
+    <edge source="CLIP1" target="DCTN2">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="HACL1" target="HDDC3">
+      <data key="d0">844</data>
+    </edge>
+    <edge source="BATF2" target="IRF1">
+      <data key="d0">730</data>
+    </edge>
+    <edge source="CTSB" target="CTSD">
+      <data key="d0">977</data>
+    </edge>
+    <edge source="CTSB" target="LAMP1">
+      <data key="d0">812</data>
+    </edge>
+    <edge source="CTSB" target="CTSL">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="CTSB" target="MMP9">
+      <data key="d0">897</data>
+    </edge>
+    <edge source="CTSB" target="LAMP2">
+      <data key="d0">726</data>
+    </edge>
+    <edge source="CTSB" target="BCL2">
+      <data key="d0">947</data>
+    </edge>
+    <edge source="CTSB" target="BCL2L1">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="CTSB" target="SQSTM1">
+      <data key="d0">719</data>
+    </edge>
+    <edge source="MAPK9" target="KRAS">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="MAPK9" target="MAP2K2">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="MAPK9" target="PRKCQ">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="MAPK9" target="MECOM">
+      <data key="d0">901</data>
+    </edge>
+    <edge source="MAPK9" target="MAP2K1">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="MAPK9" target="IRS1">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="MAPK9" target="PRKCD">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="MAPK9" target="MRPL40">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="MAPK9" target="MAP3K7">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="MAPK9" target="NRAS">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="MAPK9" target="CARD9">
+      <data key="d0">909</data>
+    </edge>
+    <edge source="MAPK9" target="IRS4">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="MAPK9" target="IRS2">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="MAPK9" target="BCL2L1">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="MAPK9" target="ELK1">
+      <data key="d0">967</data>
+    </edge>
+    <edge source="MAPK9" target="BAD">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="MAPK9" target="MAPK8">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MAPK9" target="BCL2">
+      <data key="d0">957</data>
+    </edge>
+    <edge source="MAPK9" target="HRAS">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="MAPK9" target="TRAF6">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="PIK3CA" target="MAPK1">
+      <data key="d0">822</data>
+    </edge>
+    <edge source="PIK3CA" target="PIK3R2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3CA" target="RPS6KB1">
+      <data key="d0">716</data>
+    </edge>
+    <edge source="PIK3CA" target="PLCG1">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="PIK3CA" target="RRAS">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="PIK3CA" target="KRAS">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="PIK3CA" target="RRAS2">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="PIK3CA" target="PDGFRB">
+      <data key="d0">976</data>
+    </edge>
+    <edge source="PIK3CA" target="PIK3C3">
+      <data key="d0">727</data>
+    </edge>
+    <edge source="PIK3CA" target="PIK3R3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3CA" target="PRKCD">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="PIK3CA" target="HRAS">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="PIK3CA" target="IGF1R">
+      <data key="d0">978</data>
+    </edge>
+    <edge source="PIK3CA" target="LIFR">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="PIK3CA" target="PDPK1">
+      <data key="d0">976</data>
+    </edge>
+    <edge source="PIK3CA" target="RAF1">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="PIK3CA" target="PIK3CD">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="PIK3CA" target="FGFR1">
+      <data key="d0">977</data>
+    </edge>
+    <edge source="PIK3CA" target="PLCG2">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="PIK3CA" target="TRAF6">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="PIK3CA" target="CYTH2">
+      <data key="d0">727</data>
+    </edge>
+    <edge source="PIK3CA" target="PIK3CB">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="PIK3CA" target="AKT3">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="PIK3CA" target="INPP5D">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="PIK3CA" target="IRS4">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="PIK3CA" target="PTEN">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="PIK3CA" target="AKT2">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="PIK3CA" target="NRAS">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="PIK3CA" target="MAP2K1">
+      <data key="d0">844</data>
+    </edge>
+    <edge source="PIK3CA" target="IRS1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3CA" target="AKT1">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="PIK3CA" target="MTOR">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="PIK3CA" target="PIK3R4">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="PIK3CA" target="STK11">
+      <data key="d0">844</data>
+    </edge>
+    <edge source="PIK3CA" target="TXK">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="PIK3CA" target="P3R3URF">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="PIK3CA" target="MRAS">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="PIK3CA" target="IRS2">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="PIK3CA" target="PIK3R1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PLCG1" target="MAPK1">
+      <data key="d0">769</data>
+    </edge>
+    <edge source="PLCG1" target="PIK3R2">
+      <data key="d0">926</data>
+    </edge>
+    <edge source="PLCG1" target="TXK">
+      <data key="d0">771</data>
+    </edge>
+    <edge source="PLCG1" target="PIK3R1">
+      <data key="d0">967</data>
+    </edge>
+    <edge source="PLCG1" target="PIK3R3">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="PLCG1" target="PRKCG">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="PLCG1" target="MAPK3">
+      <data key="d0">758</data>
+    </edge>
+    <edge source="PLCG1" target="PTEN">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="PLCG1" target="ITPR1">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="PLCG1" target="AKT1">
+      <data key="d0">788</data>
+    </edge>
+    <edge source="PLCG1" target="PIK3CB">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="PLCG1" target="PDGFRB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PLCG1" target="INPP1">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="PLCG1" target="IGF1R">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="PLCG1" target="PRKCD">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="PLCG1" target="PRKCQ">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PLCG1" target="PLCG2">
+      <data key="d0">964</data>
+    </edge>
+    <edge source="PLCG1" target="PIK3CD">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="PLCG1" target="FGFR1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RAB7A" target="DYNC1LI1">
+      <data key="d0">882</data>
+    </edge>
+    <edge source="RAB7A" target="RUBCN">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="RAB7A" target="RILP">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RAB7A" target="CAPZB">
+      <data key="d0">778</data>
+    </edge>
+    <edge source="RAB7A" target="TUBB2A">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="RAB7A" target="RAB1A">
+      <data key="d0">879</data>
+    </edge>
+    <edge source="RAB7A" target="LAMP1">
+      <data key="d0">780</data>
+    </edge>
+    <edge source="RAB7A" target="RAB11B">
+      <data key="d0">819</data>
+    </edge>
+    <edge source="RAB7A" target="RAB7B">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="RRAS" target="PIK3R2">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="RRAS" target="PRKCG">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="RRAS" target="PIK3R1">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="RRAS" target="PIK3R3">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="RRAS" target="RASGRP4">
+      <data key="d0">730</data>
+    </edge>
+    <edge source="RRAS" target="AKT1">
+      <data key="d0">761</data>
+    </edge>
+    <edge source="RRAS" target="RRAS2">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="RRAS" target="PIK3CB">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="RRAS" target="RAF1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="RRAS" target="PIK3CD">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="RRAS" target="RASGRP2">
+      <data key="d0">793</data>
+    </edge>
+    <edge source="RRAS" target="AFDN">
+      <data key="d0">957</data>
+    </edge>
+    <edge source="RRAS" target="BCL2">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="ZFAND2B" target="PSMC5">
+      <data key="d0">714</data>
+    </edge>
+    <edge source="IGBP1C" target="PPP2CB">
+      <data key="d0">719</data>
+    </edge>
+    <edge source="IGBP1C" target="PPP2CA">
+      <data key="d0">719</data>
+    </edge>
+    <edge source="CAMKK2" target="STK11">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="CAMKK2" target="MTOR">
+      <data key="d0">771</data>
+    </edge>
+    <edge source="CAMKK2" target="PRKAA1">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="CAMKK2" target="PRKAA2">
+      <data key="d0">964</data>
+    </edge>
+    <edge source="PTPN12" target="PDGFRB">
+      <data key="d0">798</data>
+    </edge>
+    <edge source="KLHL18" target="CUL3">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="RPL41" target="EIF2S1">
+      <data key="d0">743</data>
+    </edge>
+    <edge source="RPL41" target="ABCF1">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="RUBCN" target="ATG14">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="RUBCN" target="PIK3C3">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="RUBCN" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RUBCN" target="SH3GLB1">
+      <data key="d0">762</data>
+    </edge>
+    <edge source="RUBCN" target="ATG7">
+      <data key="d0">773</data>
+    </edge>
+    <edge source="RUBCN" target="UVRAG">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RUBCN" target="AMBRA1">
+      <data key="d0">843</data>
+    </edge>
+    <edge source="RUBCN" target="PIK3R4">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="CARD9" target="MAPK1">
+      <data key="d0">916</data>
+    </edge>
+    <edge source="CARD9" target="MAPK3">
+      <data key="d0">926</data>
+    </edge>
+    <edge source="CARD9" target="PRKCD">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="CARD9" target="MAPK8">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="CARD9" target="TRAF6">
+      <data key="d0">759</data>
+    </edge>
+    <edge source="VAMP8" target="SNAP29">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="VAMP8" target="ATG14">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="VAMP8" target="STX17">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="VAMP8" target="USE1">
+      <data key="d0">703</data>
+    </edge>
+    <edge source="VAMP8" target="CPLX1">
+      <data key="d0">769</data>
+    </edge>
+    <edge source="VAMP8" target="VPS33B">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="MRPS22" target="GFM1">
+      <data key="d0">978</data>
+    </edge>
+    <edge source="MRPS22" target="MRPL40">
+      <data key="d0">926</data>
+    </edge>
+    <edge source="UVRAG" target="RB1CC1">
+      <data key="d0">789</data>
+    </edge>
+    <edge source="UVRAG" target="GABARAPL2">
+      <data key="d0">819</data>
+    </edge>
+    <edge source="UVRAG" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="UVRAG" target="RINT1">
+      <data key="d0">701</data>
+    </edge>
+    <edge source="UVRAG" target="STX17">
+      <data key="d0">770</data>
+    </edge>
+    <edge source="UVRAG" target="PIK3C3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="UVRAG" target="WIPI1">
+      <data key="d0">734</data>
+    </edge>
+    <edge source="UVRAG" target="NRBF2">
+      <data key="d0">943</data>
+    </edge>
+    <edge source="UVRAG" target="ATG3">
+      <data key="d0">809</data>
+    </edge>
+    <edge source="UVRAG" target="GABARAP">
+      <data key="d0">783</data>
+    </edge>
+    <edge source="UVRAG" target="ATG4C">
+      <data key="d0">706</data>
+    </edge>
+    <edge source="UVRAG" target="ULK1">
+      <data key="d0">782</data>
+    </edge>
+    <edge source="UVRAG" target="ATG101">
+      <data key="d0">853</data>
+    </edge>
+    <edge source="UVRAG" target="ATG7">
+      <data key="d0">895</data>
+    </edge>
+    <edge source="UVRAG" target="ATG16L1">
+      <data key="d0">761</data>
+    </edge>
+    <edge source="UVRAG" target="BECN2">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="UVRAG" target="ATG12">
+      <data key="d0">840</data>
+    </edge>
+    <edge source="UVRAG" target="SH3GLB1">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="UVRAG" target="ULK2">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="UVRAG" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="UVRAG" target="BCL2">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="UVRAG" target="BCL2L1">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="UVRAG" target="ATG5">
+      <data key="d0">853</data>
+    </edge>
+    <edge source="UVRAG" target="ATG4B">
+      <data key="d0">725</data>
+    </edge>
+    <edge source="UVRAG" target="PIK3R4">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="UVRAG" target="AMBRA1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="UVRAG" target="ATG9B">
+      <data key="d0">702</data>
+    </edge>
+    <edge source="UVRAG" target="ATG13">
+      <data key="d0">820</data>
+    </edge>
+    <edge source="UVRAG" target="GABARAPL1">
+      <data key="d0">819</data>
+    </edge>
+    <edge source="UVRAG" target="MTOR">
+      <data key="d0">708</data>
+    </edge>
+    <edge source="MASTL" target="PPP2CA">
+      <data key="d0">810</data>
+    </edge>
+    <edge source="MKNK2" target="MAPK1">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="MKNK2" target="MAPK3">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="MKNK2" target="ATP7A">
+      <data key="d0">796</data>
+    </edge>
+    <edge source="SRFBP1" target="UTP4">
+      <data key="d0">824</data>
+    </edge>
+    <edge source="COX5B" target="AICDA">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="COX5B" target="COX7A1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="COX5B" target="NDUFB10">
+      <data key="d0">980</data>
+    </edge>
+    <edge source="COX5B" target="APOBEC3H">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="COX5B" target="BCS1L">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="COX5B" target="NDUFAB1">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="COX5B" target="NDUFV2">
+      <data key="d0">987</data>
+    </edge>
+    <edge source="COX5B" target="ATP5ME">
+      <data key="d0">916</data>
+    </edge>
+    <edge source="COX5B" target="ATG5">
+      <data key="d0">723</data>
+    </edge>
+    <edge source="CNTROB" target="TUBA4A">
+      <data key="d0">750</data>
+    </edge>
+    <edge source="RBL1" target="PSMC1">
+      <data key="d0">901</data>
+    </edge>
+    <edge source="RBL1" target="PPP1CC">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="RBL1" target="E2F2">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="MTMR3" target="FIG4">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="MTMR3" target="PIK3C3">
+      <data key="d0">856</data>
+    </edge>
+    <edge source="MTMR3" target="MTMR4">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="ERLIN1" target="ITPR1">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="ATG4D" target="GABARAPL2">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="ATG4D" target="ATG14">
+      <data key="d0">711</data>
+    </edge>
+    <edge source="ATG4D" target="ATG3">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="ATG4D" target="GABARAP">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="ATG4D" target="GABARAPL1">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="ATG4D" target="ATG13">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="ATG4D" target="ATG9A">
+      <data key="d0">733</data>
+    </edge>
+    <edge source="ATG4D" target="ATG5">
+      <data key="d0">898</data>
+    </edge>
+    <edge source="ATG4D" target="ULK1">
+      <data key="d0">830</data>
+    </edge>
+    <edge source="ATG4D" target="BECN1">
+      <data key="d0">732</data>
+    </edge>
+    <edge source="ATG4D" target="ULK2">
+      <data key="d0">816</data>
+    </edge>
+    <edge source="ATG4D" target="ATG12">
+      <data key="d0">885</data>
+    </edge>
+    <edge source="ATG4D" target="ATG16L1">
+      <data key="d0">806</data>
+    </edge>
+    <edge source="ATG4D" target="ATG7">
+      <data key="d0">916</data>
+    </edge>
+    <edge source="UBE2L6" target="UBE3A">
+      <data key="d0">869</data>
+    </edge>
+    <edge source="ATG2A" target="RB1CC1">
+      <data key="d0">758</data>
+    </edge>
+    <edge source="ATG2A" target="GABARAPL2">
+      <data key="d0">708</data>
+    </edge>
+    <edge source="ATG2A" target="ATG14">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="ATG2A" target="WIPI1">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="ATG2A" target="ATG3">
+      <data key="d0">722</data>
+    </edge>
+    <edge source="ATG2A" target="WIPI2">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="ATG2A" target="GABARAP">
+      <data key="d0">892</data>
+    </edge>
+    <edge source="ATG2A" target="ULK1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="ATG2A" target="ATG101">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="ATG2A" target="ATG7">
+      <data key="d0">701</data>
+    </edge>
+    <edge source="ATG2A" target="ATG2B">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="ATG2A" target="ATG5">
+      <data key="d0">713</data>
+    </edge>
+    <edge source="ATG2A" target="ATG12">
+      <data key="d0">713</data>
+    </edge>
+    <edge source="ATG2A" target="ATG16L1">
+      <data key="d0">708</data>
+    </edge>
+    <edge source="ATG2A" target="ULK2">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="ATG2A" target="ATG9B">
+      <data key="d0">765</data>
+    </edge>
+    <edge source="ATG2A" target="ATG13">
+      <data key="d0">750</data>
+    </edge>
+    <edge source="ATG2A" target="ATG9A">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="ATG2A" target="GABARAPL1">
+      <data key="d0">847</data>
+    </edge>
+    <edge source="IRS4" target="PIK3R2">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="IRS4" target="PIK3R3">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="IRS4" target="IRS1">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="IRS4" target="PRKCD">
+      <data key="d0">909</data>
+    </edge>
+    <edge source="IRS4" target="MTOR">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="IRS4" target="IRS2">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="IRS4" target="PIK3R1">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="IRS4" target="MAPK8">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="IRS4" target="PIK3CD">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="IRS4" target="IGF1R">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="IRS4" target="INS">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="IRS4" target="TLE7">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="IRS4" target="PIK3CB">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="RRAS2" target="PIK3R2">
+      <data key="d0">734</data>
+    </edge>
+    <edge source="RRAS2" target="RASGRP4">
+      <data key="d0">746</data>
+    </edge>
+    <edge source="RRAS2" target="PIK3R3">
+      <data key="d0">707</data>
+    </edge>
+    <edge source="RRAS2" target="PIK3R1">
+      <data key="d0">794</data>
+    </edge>
+    <edge source="RRAS2" target="PRKCG">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="RRAS2" target="RASGRP2">
+      <data key="d0">713</data>
+    </edge>
+    <edge source="RRAS2" target="RAF1">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="RRAS2" target="PIK3CD">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="RRAS2" target="AFDN">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="RRAS2" target="PIK3CB">
+      <data key="d0">828</data>
+    </edge>
+    <edge source="LAMP2" target="FIG4">
+      <data key="d0">823</data>
+    </edge>
+    <edge source="LAMP2" target="CTSD">
+      <data key="d0">861</data>
+    </edge>
+    <edge source="LAMP2" target="LAMP1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="LAMP2" target="ATG7">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="LAMP2" target="MTOR">
+      <data key="d0">758</data>
+    </edge>
+    <edge source="LAMP2" target="BECN1">
+      <data key="d0">796</data>
+    </edge>
+    <edge source="LAMP2" target="ATG5">
+      <data key="d0">748</data>
+    </edge>
+    <edge source="LAMP2" target="SQSTM1">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="LAMP2" target="HIF1A">
+      <data key="d0">730</data>
+    </edge>
+    <edge source="FGF23" target="PDGFRB">
+      <data key="d0">743</data>
+    </edge>
+    <edge source="FGF23" target="IGF1R">
+      <data key="d0">709</data>
+    </edge>
+    <edge source="FGF23" target="FGF19">
+      <data key="d0">701</data>
+    </edge>
+    <edge source="FGF23" target="FGFR1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BCL2A1" target="BECN1">
+      <data key="d0">737</data>
+    </edge>
+    <edge source="PDPK1" target="TSC2">
+      <data key="d0">882</data>
+    </edge>
+    <edge source="PDPK1" target="PIK3R2">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="PDPK1" target="RPS6KB1">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="PDPK1" target="KRAS">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="PDPK1" target="PIK3R3">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="PDPK1" target="PRKCQ">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="PDPK1" target="IRS1">
+      <data key="d0">707</data>
+    </edge>
+    <edge source="PDPK1" target="RPS6KB2">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="PDPK1" target="PIK3R1">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="PDPK1" target="AKT1S1">
+      <data key="d0">750</data>
+    </edge>
+    <edge source="PDPK1" target="AKT1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PDPK1" target="MTOR">
+      <data key="d0">848</data>
+    </edge>
+    <edge source="PDPK1" target="PTEN">
+      <data key="d0">849</data>
+    </edge>
+    <edge source="PDPK1" target="AKT2">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="PDPK1" target="PIK3CB">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="PDPK1" target="AKT3">
+      <data key="d0">939</data>
+    </edge>
+    <edge source="PDPK1" target="PIK3CD">
+      <data key="d0">948</data>
+    </edge>
+    <edge source="ATG4B" target="RB1CC1">
+      <data key="d0">724</data>
+    </edge>
+    <edge source="ATG4B" target="GABARAPL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG4B" target="ATG14">
+      <data key="d0">791</data>
+    </edge>
+    <edge source="ATG4B" target="PIK3C3">
+      <data key="d0">795</data>
+    </edge>
+    <edge source="ATG4B" target="WIPI1">
+      <data key="d0">760</data>
+    </edge>
+    <edge source="ATG4B" target="ATG3">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="ATG4B" target="WIPI2">
+      <data key="d0">770</data>
+    </edge>
+    <edge source="ATG4B" target="GABARAP">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG4B" target="ULK1">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="ATG4B" target="ATG101">
+      <data key="d0">829</data>
+    </edge>
+    <edge source="ATG4B" target="ATG7">
+      <data key="d0">977</data>
+    </edge>
+    <edge source="ATG4B" target="PIK3R4">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="ATG4B" target="BECN1">
+      <data key="d0">839</data>
+    </edge>
+    <edge source="ATG4B" target="ATG5">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="ATG4B" target="SQSTM1">
+      <data key="d0">783</data>
+    </edge>
+    <edge source="ATG4B" target="ATG16L1">
+      <data key="d0">850</data>
+    </edge>
+    <edge source="ATG4B" target="ULK2">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="ATG4B" target="ATG12">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="ATG4B" target="GABARAPL1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG4B" target="AMBRA1">
+      <data key="d0">704</data>
+    </edge>
+    <edge source="ATG4B" target="ATG9A">
+      <data key="d0">776</data>
+    </edge>
+    <edge source="ATG4B" target="ATG13">
+      <data key="d0">822</data>
+    </edge>
+    <edge source="CHRM3" target="KNG1">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="ATG12" target="RB1CC1">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="ATG12" target="GABARAPL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG12" target="ATG14">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="ATG12" target="STX17">
+      <data key="d0">767</data>
+    </edge>
+    <edge source="ATG12" target="PIK3C3">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="ATG12" target="WIPI1">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="ATG12" target="ATG3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG12" target="WIPI2">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="ATG12" target="RAB33B">
+      <data key="d0">890</data>
+    </edge>
+    <edge source="ATG12" target="GABARAP">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="ATG12" target="ATG4C">
+      <data key="d0">867</data>
+    </edge>
+    <edge source="ATG12" target="ULK1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="ATG12" target="ATG16L2">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="ATG12" target="ATG101">
+      <data key="d0">901</data>
+    </edge>
+    <edge source="ATG12" target="ATG7">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG12" target="PIK3R4">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="ATG12" target="ATG2B">
+      <data key="d0">726</data>
+    </edge>
+    <edge source="ATG12" target="MTOR">
+      <data key="d0">761</data>
+    </edge>
+    <edge source="ATG12" target="BECN1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="ATG12" target="BNIP3">
+      <data key="d0">712</data>
+    </edge>
+    <edge source="ATG12" target="ATG5">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG12" target="ATG4A">
+      <data key="d0">876</data>
+    </edge>
+    <edge source="ATG12" target="BCL2L1">
+      <data key="d0">729</data>
+    </edge>
+    <edge source="ATG12" target="SQSTM1">
+      <data key="d0">981</data>
+    </edge>
+    <edge source="ATG12" target="ATG16L1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG12" target="ULK2">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="ATG12" target="BCL2">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="ATG12" target="ATG9A">
+      <data key="d0">801</data>
+    </edge>
+    <edge source="ATG12" target="GABARAPL1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG12" target="ATG13">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="ATG12" target="AMBRA1">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="ATG12" target="ATG9B">
+      <data key="d0">776</data>
+    </edge>
+    <edge source="ATG12" target="ZFYVE1">
+      <data key="d0">784</data>
+    </edge>
+    <edge source="ATG12" target="BECN2">
+      <data key="d0">746</data>
+    </edge>
+    <edge source="PDGFRB" target="PIK3R2">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PDGFRB" target="HGF">
+      <data key="d0">855</data>
+    </edge>
+    <edge source="PDGFRB" target="KRAS">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="PDGFRB" target="EFNA1">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="PDGFRB" target="NRAS">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="PDGFRB" target="PTEN">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="PDGFRB" target="IRS1">
+      <data key="d0">833</data>
+    </edge>
+    <edge source="PDGFRB" target="PIK3R3">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="PDGFRB" target="PIK3R1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PDGFRB" target="INS">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="PDGFRB" target="HRAS">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="PDGFRB" target="RAF1">
+      <data key="d0">742</data>
+    </edge>
+    <edge source="PDGFRB" target="PIK3CD">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="PDGFRB" target="FGF19">
+      <data key="d0">768</data>
+    </edge>
+    <edge source="PDGFRB" target="PLCG2">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="PDGFRB" target="AREG">
+      <data key="d0">758</data>
+    </edge>
+    <edge source="PDGFRB" target="PIK3CB">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="RB1CC1" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="TSC2">
+      <data key="d0">834</data>
+    </edge>
+    <edge source="RB1CC1" target="ULK2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="GABARAPL2">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="RB1CC1" target="ULK1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG2B">
+      <data key="d0">718</data>
+    </edge>
+    <edge source="RB1CC1" target="ZFYVE1">
+      <data key="d0">709</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG5">
+      <data key="d0">970</data>
+    </edge>
+    <edge source="RB1CC1" target="MLST8">
+      <data key="d0">740</data>
+    </edge>
+    <edge source="RB1CC1" target="WIPI1">
+      <data key="d0">873</data>
+    </edge>
+    <edge source="RB1CC1" target="SQSTM1">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG7">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG16L1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="BECN2">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="RB1CC1" target="VMP1">
+      <data key="d0">712</data>
+    </edge>
+    <edge source="RB1CC1" target="CD300C">
+      <data key="d0">794</data>
+    </edge>
+    <edge source="RB1CC1" target="WIPI2">
+      <data key="d0">930</data>
+    </edge>
+    <edge source="RB1CC1" target="GABARAP">
+      <data key="d0">970</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG16L2">
+      <data key="d0">961</data>
+    </edge>
+    <edge source="RB1CC1" target="RHEB">
+      <data key="d0">801</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="SMCR8">
+      <data key="d0">875</data>
+    </edge>
+    <edge source="RB1CC1" target="PIK3C3">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="RB1CC1" target="NRBF2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="GABARAPL1">
+      <data key="d0">967</data>
+    </edge>
+    <edge source="RB1CC1" target="MTOR">
+      <data key="d0">982</data>
+    </edge>
+    <edge source="RB1CC1" target="AMBRA1">
+      <data key="d0">876</data>
+    </edge>
+    <edge source="RB1CC1" target="AKT1S1">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="RB1CC1" target="TBK1">
+      <data key="d0">879</data>
+    </edge>
+    <edge source="RB1CC1" target="PIK3R4">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="RB1CC1" target="STX17">
+      <data key="d0">817</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG101">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG13">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG9A">
+      <data key="d0">833</data>
+    </edge>
+    <edge source="RB1CC1" target="ATG3">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="RB1CC1" target="RPTOR">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="GABRB2" target="GABARAP">
+      <data key="d0">801</data>
+    </edge>
+    <edge source="FGF12" target="FGFR1">
+      <data key="d0">771</data>
+    </edge>
+    <edge source="SH3GLB1" target="ATG14">
+      <data key="d0">947</data>
+    </edge>
+    <edge source="SH3GLB1" target="PIK3C3">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="SH3GLB1" target="PIK3R4">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="SH3GLB1" target="BECN1">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="SH3GLB1" target="SH3GLB2">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="SH3GLB1" target="AMBRA1">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="TEX264" target="GABARAPL2">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="TEX264" target="GABARAP">
+      <data key="d0">832</data>
+    </edge>
+    <edge source="BNIP3" target="GABARAPL2">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="BNIP3" target="RHEB">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="BNIP3" target="GABARAP">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BNIP3" target="CD300C">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="BNIP3" target="ATG7">
+      <data key="d0">759</data>
+    </edge>
+    <edge source="BNIP3" target="BECN1">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="BNIP3" target="BCL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BNIP3" target="ATG5">
+      <data key="d0">797</data>
+    </edge>
+    <edge source="BNIP3" target="BCL2L1">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="BNIP3" target="BECN2">
+      <data key="d0">714</data>
+    </edge>
+    <edge source="BNIP3" target="SQSTM1">
+      <data key="d0">862</data>
+    </edge>
+    <edge source="BNIP3" target="HIF1A">
+      <data key="d0">895</data>
+    </edge>
+    <edge source="BNIP3" target="GABARAPL1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="ELL" target="AFDN">
+      <data key="d0">808</data>
+    </edge>
+    <edge source="LAMTOR5" target="MTOR">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="LAMTOR5" target="RRAGC">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="LAMTOR5" target="RRAGB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="LAMTOR5" target="SMCR8">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="LAMTOR5" target="RHEB">
+      <data key="d0">743</data>
+    </edge>
+    <edge source="LAMTOR5" target="RPTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="LAMTOR5" target="RRAGA">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="LAMTOR5" target="WDR41">
+      <data key="d0">724</data>
+    </edge>
+    <edge source="LAMTOR5" target="DEPDC5">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="LAMTOR5" target="MLST8">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="LAMTOR5" target="RRAGD">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="GTPBP8" target="NDUFAB1">
+      <data key="d0">817</data>
+    </edge>
+    <edge source="KLHL6" target="CUL3">
+      <data key="d0">793</data>
+    </edge>
+    <edge source="UTP4" target="DIMT1">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="UTP4" target="NOP53">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="UTP4" target="WDR75">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="UTP4" target="TEX10">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="UTP4" target="UTP14A">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="MECOM" target="MAPK8">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="WIPI1" target="GABARAPL2">
+      <data key="d0">870</data>
+    </edge>
+    <edge source="WIPI1" target="FIG4">
+      <data key="d0">855</data>
+    </edge>
+    <edge source="WIPI1" target="ATG14">
+      <data key="d0">889</data>
+    </edge>
+    <edge source="WIPI1" target="PIK3C3">
+      <data key="d0">902</data>
+    </edge>
+    <edge source="WIPI1" target="GABARAPL1">
+      <data key="d0">884</data>
+    </edge>
+    <edge source="WIPI1" target="ATG4A">
+      <data key="d0">767</data>
+    </edge>
+    <edge source="WIPI1" target="ATG9B">
+      <data key="d0">866</data>
+    </edge>
+    <edge source="WIPI1" target="ATG101">
+      <data key="d0">897</data>
+    </edge>
+    <edge source="WIPI1" target="AMBRA1">
+      <data key="d0">827</data>
+    </edge>
+    <edge source="WIPI1" target="PIK3R4">
+      <data key="d0">815</data>
+    </edge>
+    <edge source="WIPI1" target="ATG13">
+      <data key="d0">885</data>
+    </edge>
+    <edge source="WIPI1" target="ATG9A">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="WIPI1" target="ATG3">
+      <data key="d0">834</data>
+    </edge>
+    <edge source="WIPI1" target="ULK1">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="WIPI1" target="BECN1">
+      <data key="d0">926</data>
+    </edge>
+    <edge source="WIPI1" target="ATG4C">
+      <data key="d0">702</data>
+    </edge>
+    <edge source="WIPI1" target="ULK2">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="WIPI1" target="ATG5">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="WIPI1" target="ATG2B">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="WIPI1" target="ZFYVE1">
+      <data key="d0">855</data>
+    </edge>
+    <edge source="WIPI1" target="ATG16L1">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="WIPI1" target="ATG7">
+      <data key="d0">859</data>
+    </edge>
+    <edge source="WIPI1" target="WIPI2">
+      <data key="d0">976</data>
+    </edge>
+    <edge source="WIPI1" target="GABARAP">
+      <data key="d0">819</data>
+    </edge>
+    <edge source="WIPI1" target="ATG16L2">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="WIPI1" target="VMP1">
+      <data key="d0">802</data>
+    </edge>
+    <edge source="RRAGD" target="TSC2">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="RRAGD" target="RPS6KB1">
+      <data key="d0">886</data>
+    </edge>
+    <edge source="RRAGD" target="RHEB">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="RRAGD" target="RRAGB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGD" target="DEPTOR">
+      <data key="d0">809</data>
+    </edge>
+    <edge source="RRAGD" target="TSC1">
+      <data key="d0">815</data>
+    </edge>
+    <edge source="RRAGD" target="RPTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGD" target="KICS2">
+      <data key="d0">728</data>
+    </edge>
+    <edge source="RRAGD" target="MTOR">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="RRAGD" target="DEPDC5">
+      <data key="d0">864</data>
+    </edge>
+    <edge source="RRAGD" target="AKT1">
+      <data key="d0">752</data>
+    </edge>
+    <edge source="RRAGD" target="MLST8">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="RRAGD" target="RRAGC">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGD" target="PRKAA2">
+      <data key="d0">714</data>
+    </edge>
+    <edge source="RRAGD" target="RRAGA">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGD" target="AKT1S1">
+      <data key="d0">948</data>
+    </edge>
+    <edge source="BCL2L1" target="CTSD">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="BCL2L1" target="KRAS">
+      <data key="d0">982</data>
+    </edge>
+    <edge source="BCL2L1" target="PIK3C3">
+      <data key="d0">771</data>
+    </edge>
+    <edge source="BCL2L1" target="MAPK3">
+      <data key="d0">701</data>
+    </edge>
+    <edge source="BCL2L1" target="ITPR1">
+      <data key="d0">856</data>
+    </edge>
+    <edge source="BCL2L1" target="CFLAR">
+      <data key="d0">864</data>
+    </edge>
+    <edge source="BCL2L1" target="CTSL">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="BCL2L1" target="ATG7">
+      <data key="d0">734</data>
+    </edge>
+    <edge source="BCL2L1" target="MTOR">
+      <data key="d0">813</data>
+    </edge>
+    <edge source="BCL2L1" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BCL2L1" target="ATG5">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="BCL2L1" target="HEBP2">
+      <data key="d0">818</data>
+    </edge>
+    <edge source="BCL2L1" target="AKT3">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="BCL2L1" target="BECN2">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="BCL2L1" target="RAF1">
+      <data key="d0">892</data>
+    </edge>
+    <edge source="BCL2L1" target="BCL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BCL2L1" target="MAPK8">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="BCL2L1" target="BAD">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BCL2L1" target="AKT1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="BCL2L1" target="AKT2">
+      <data key="d0">939</data>
+    </edge>
+    <edge source="PIK3CD" target="PIK3R2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3CD" target="KRAS">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="PIK3CD" target="PIK3R3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3CD" target="TXK">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PIK3CD" target="MRAS">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="PIK3CD" target="IRS1">
+      <data key="d0">943</data>
+    </edge>
+    <edge source="PIK3CD" target="PRKCD">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PIK3CD" target="PIK3R4">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="PIK3CD" target="MTOR">
+      <data key="d0">942</data>
+    </edge>
+    <edge source="PIK3CD" target="NRAS">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="PIK3CD" target="PTEN">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="PIK3CD" target="IRS2">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="PIK3CD" target="AKT1">
+      <data key="d0">976</data>
+    </edge>
+    <edge source="PIK3CD" target="AKT2">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="PIK3CD" target="PIK3R1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3CD" target="P3R3URF">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="PIK3CD" target="FGFR1">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="PIK3CD" target="RAF1">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="PIK3CD" target="PLCG2">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="PIK3CD" target="LIFR">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="PIK3CD" target="HRAS">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PIK3CD" target="IGF1R">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="PIK3CD" target="AKT3">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="PIK3CD" target="PIK3CB">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="PIK3CD" target="INPP5D">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="MFSD8" target="CTSD">
+      <data key="d0">789</data>
+    </edge>
+    <edge source="C1ORF198" target="AICDA">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="C1ORF198" target="NDUFV2">
+      <data key="d0">800</data>
+    </edge>
+    <edge source="C1ORF198" target="APOBEC3H">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="PLCG2" target="PIK3R2">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="PLCG2" target="PIK3R3">
+      <data key="d0">909</data>
+    </edge>
+    <edge source="PLCG2" target="PRKCG">
+      <data key="d0">900</data>
+    </edge>
+    <edge source="PLCG2" target="ITPR1">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="PLCG2" target="PRKCD">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="PLCG2" target="PTEN">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="PLCG2" target="INPP1">
+      <data key="d0">900</data>
+    </edge>
+    <edge source="PLCG2" target="FGFR1">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="PLCG2" target="INPP5D">
+      <data key="d0">820</data>
+    </edge>
+    <edge source="PLCG2" target="PIK3R1">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="PLCG2" target="AKT1">
+      <data key="d0">771</data>
+    </edge>
+    <edge source="PLCG2" target="IGF1R">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="PLCG2" target="PIK3CB">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="MLST8" target="TSC2">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="MLST8" target="RPS6KB1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="MLST8" target="RHEB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MLST8" target="RRAGB">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="MLST8" target="DEPTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MLST8" target="TSC1">
+      <data key="d0">890</data>
+    </edge>
+    <edge source="MLST8" target="RPTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MLST8" target="RPS6KB2">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="MLST8" target="ULK1">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="MLST8" target="ATG101">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="MLST8" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MLST8" target="PRKAA2">
+      <data key="d0">734</data>
+    </edge>
+    <edge source="MLST8" target="RRAGC">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="MLST8" target="IGBP1">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="MLST8" target="RRAGA">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="MLST8" target="AKT1S1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MLST8" target="ULK2">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="MLST8" target="ATG13">
+      <data key="d0">824</data>
+    </edge>
+    <edge source="MLST8" target="AKT1">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="PSMG3" target="PSMG2">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="ULK2" target="GABARAPL2">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="ULK2" target="PPP2CB">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="ULK2" target="ATG14">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="ULK2" target="PIK3C3">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="ULK2" target="NRBF2">
+      <data key="d0">942</data>
+    </edge>
+    <edge source="ULK2" target="ATG3">
+      <data key="d0">964</data>
+    </edge>
+    <edge source="ULK2" target="DEPTOR">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="ULK2" target="WIPI2">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="ULK2" target="GABARAP">
+      <data key="d0">892</data>
+    </edge>
+    <edge source="ULK2" target="RPTOR">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="ULK2" target="PRKACA">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="ULK2" target="ATG4C">
+      <data key="d0">824</data>
+    </edge>
+    <edge source="ULK2" target="ULK1">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="ULK2" target="ATG16L2">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="ULK2" target="ATG101">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ULK2" target="ATG7">
+      <data key="d0">832</data>
+    </edge>
+    <edge source="ULK2" target="PIK3R4">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="ULK2" target="ATG2B">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="ULK2" target="MTOR">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="ULK2" target="BECN1">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="ULK2" target="ATG5">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="ULK2" target="PRKACB">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="ULK2" target="ATG4A">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="ULK2" target="PRKACG">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="ULK2" target="SQSTM1">
+      <data key="d0">758</data>
+    </edge>
+    <edge source="ULK2" target="AKT1S1">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="ULK2" target="ATG16L1">
+      <data key="d0">854</data>
+    </edge>
+    <edge source="ULK2" target="BECN2">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="ULK2" target="TRAF6">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="ULK2" target="AMBRA1">
+      <data key="d0">787</data>
+    </edge>
+    <edge source="ULK2" target="PPP2CA">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="ULK2" target="ATG9B">
+      <data key="d0">898</data>
+    </edge>
+    <edge source="ULK2" target="ATG9A">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="ULK2" target="ATG13">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="ULK2" target="SMCR8">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="ULK2" target="GABARAPL1">
+      <data key="d0">943</data>
+    </edge>
+    <edge source="EIF3L" target="EIF2S1">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="RINT1" target="USE1">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="TRAF6" target="TANK">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="TRAF6" target="PRKCQ">
+      <data key="d0">771</data>
+    </edge>
+    <edge source="TRAF6" target="ULK1">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="TRAF6" target="TBK1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TRAF6" target="BECN1">
+      <data key="d0">982</data>
+    </edge>
+    <edge source="TRAF6" target="MAP3K7">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TRAF6" target="PRKACB">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="TRAF6" target="SQSTM1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TRAF6" target="CUL5">
+      <data key="d0">769</data>
+    </edge>
+    <edge source="TRAF6" target="MAPK8">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="TRAF6" target="AMBRA1">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="TRAF6" target="AKT1">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="TRAF6" target="HIF1A">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="TRAF6" target="IGF1R">
+      <data key="d0">742</data>
+    </edge>
+    <edge source="SRPRA" target="RPL17-C18ORF32">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="ZFYVE1" target="ATG14">
+      <data key="d0">852</data>
+    </edge>
+    <edge source="ZFYVE1" target="PIK3C3">
+      <data key="d0">865</data>
+    </edge>
+    <edge source="ZFYVE1" target="WIPI2">
+      <data key="d0">874</data>
+    </edge>
+    <edge source="ZFYVE1" target="GABARAP">
+      <data key="d0">745</data>
+    </edge>
+    <edge source="ZFYVE1" target="ULK1">
+      <data key="d0">792</data>
+    </edge>
+    <edge source="ZFYVE1" target="PIK3R4">
+      <data key="d0">754</data>
+    </edge>
+    <edge source="ZFYVE1" target="BECN1">
+      <data key="d0">804</data>
+    </edge>
+    <edge source="ZFYVE1" target="ATG5">
+      <data key="d0">797</data>
+    </edge>
+    <edge source="ZFYVE1" target="AMBRA1">
+      <data key="d0">729</data>
+    </edge>
+    <edge source="ZFYVE1" target="ATG13">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="GNRH1" target="MAPK1">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="GNRH1" target="MAPK3">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="GNRH1" target="AKT3">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="GNRH1" target="FGFR1">
+      <data key="d0">728</data>
+    </edge>
+    <edge source="GNRH1" target="AKT1">
+      <data key="d0">942</data>
+    </edge>
+    <edge source="GNRH1" target="AKT2">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="PHF11" target="NPSR1">
+      <data key="d0">721</data>
+    </edge>
+    <edge source="IRS2" target="PIK3R2">
+      <data key="d0">981</data>
+    </edge>
+    <edge source="IRS2" target="RPS6KB1">
+      <data key="d0">737</data>
+    </edge>
+    <edge source="IRS2" target="PIK3R3">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="IRS2" target="IRS1">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="IRS2" target="PRKCD">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="IRS2" target="MTOR">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="IRS2" target="PIK3R1">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="IRS2" target="MAPK8">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="IRS2" target="AKT1">
+      <data key="d0">883</data>
+    </edge>
+    <edge source="IRS2" target="PIK3CB">
+      <data key="d0">947</data>
+    </edge>
+    <edge source="IRS2" target="INS">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="IRS2" target="IGF1R">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="CPSF4" target="SSU72L2">
+      <data key="d0">768</data>
+    </edge>
+    <edge source="CPSF4" target="PPP1CC">
+      <data key="d0">815</data>
+    </edge>
+    <edge source="NDUFAF5" target="NDUFV2">
+      <data key="d0">877</data>
+    </edge>
+    <edge source="NDUFAF5" target="NDUFAB1">
+      <data key="d0">799</data>
+    </edge>
+    <edge source="STX17" target="GABARAPL2">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="STX17" target="SNAP29">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="STX17" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="STX17" target="BECN1">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="STX17" target="ULK1">
+      <data key="d0">786</data>
+    </edge>
+    <edge source="STX17" target="ATG5">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="STX17" target="ATG7">
+      <data key="d0">755</data>
+    </edge>
+    <edge source="STX17" target="USE1">
+      <data key="d0">716</data>
+    </edge>
+    <edge source="STX17" target="GABARAP">
+      <data key="d0">967</data>
+    </edge>
+    <edge source="STX17" target="CPLX1">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="STX17" target="PIK3C3">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="STX17" target="GABARAPL1">
+      <data key="d0">708</data>
+    </edge>
+    <edge source="STX17" target="PIK3R4">
+      <data key="d0">737</data>
+    </edge>
+    <edge source="STX17" target="ATG13">
+      <data key="d0">835</data>
+    </edge>
+    <edge source="STX17" target="ATG3">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="FGF19" target="FGFR1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="FGF19" target="IGF1R">
+      <data key="d0">718</data>
+    </edge>
+    <edge source="TMEM208" target="ATG9A">
+      <data key="d0">840</data>
+    </edge>
+    <edge source="TMEM208" target="ATG9B">
+      <data key="d0">840</data>
+    </edge>
+    <edge source="SLC10A2" target="ATP6V0C">
+      <data key="d0">857</data>
+    </edge>
+    <edge source="PRKAA2" target="TSC2">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="PRKAA2" target="RHEB">
+      <data key="d0">714</data>
+    </edge>
+    <edge source="PRKAA2" target="RRAGB">
+      <data key="d0">711</data>
+    </edge>
+    <edge source="PRKAA2" target="TSC1">
+      <data key="d0">942</data>
+    </edge>
+    <edge source="PRKAA2" target="RPTOR">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="PRKAA2" target="PRKACA">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="PRKAA2" target="ULK1">
+      <data key="d0">840</data>
+    </edge>
+    <edge source="PRKAA2" target="STK11">
+      <data key="d0">978</data>
+    </edge>
+    <edge source="PRKAA2" target="PRKAA1">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="PRKAA2" target="MTOR">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="PRKAA2" target="MAP3K7">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="PRKAA2" target="PRKACB">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PRKAA2" target="AKT1S1">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="PRKAA2" target="RRAGA">
+      <data key="d0">711</data>
+    </edge>
+    <edge source="PRKAA2" target="PRKACG">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="PRKAA2" target="TBC1D7">
+      <data key="d0">902</data>
+    </edge>
+    <edge source="MRPL40" target="GFM1">
+      <data key="d0">825</data>
+    </edge>
+    <edge source="MRPL40" target="NDUFAB1">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="MRPL40" target="MAPK8">
+      <data key="d0">787</data>
+    </edge>
+    <edge source="MRPL40" target="RPL17-C18ORF32">
+      <data key="d0">774</data>
+    </edge>
+    <edge source="WDCP" target="RUVBL1">
+      <data key="d0">753</data>
+    </edge>
+    <edge source="TRIB3" target="MAP2K1">
+      <data key="d0">801</data>
+    </edge>
+    <edge source="TRIB3" target="AKT2">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="TRIB3" target="AKT1">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="TRIB3" target="AKT3">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="AFDN" target="KRAS">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="AFDN" target="MRAS">
+      <data key="d0">970</data>
+    </edge>
+    <edge source="AFDN" target="HRAS">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="AFDN" target="BCL2">
+      <data key="d0">767</data>
+    </edge>
+    <edge source="AFDN" target="NRAS">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="AFDN" target="ACTG1">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="CRACR2A" target="DYNC1LI1">
+      <data key="d0">822</data>
+    </edge>
+    <edge source="RPTOR" target="TSC2">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="RPTOR" target="RPS6KB1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="PIK3C3">
+      <data key="d0">746</data>
+    </edge>
+    <edge source="RPTOR" target="RHEB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="RRAGB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="MAPK3">
+      <data key="d0">745</data>
+    </edge>
+    <edge source="RPTOR" target="DEPTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="TSC1">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="RPTOR" target="IRS1">
+      <data key="d0">855</data>
+    </edge>
+    <edge source="RPTOR" target="ATG101">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="RPTOR" target="PIK3R4">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="RPTOR" target="AMBRA1">
+      <data key="d0">709</data>
+    </edge>
+    <edge source="RPTOR" target="STK11">
+      <data key="d0">787</data>
+    </edge>
+    <edge source="RPTOR" target="AKT1S1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="RRAGA">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="ATG13">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="RPTOR" target="LAMP1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="RPTOR" target="IGBP1">
+      <data key="d0">942</data>
+    </edge>
+    <edge source="RPTOR" target="AKT2">
+      <data key="d0">976</data>
+    </edge>
+    <edge source="RPTOR" target="PTEN">
+      <data key="d0">744</data>
+    </edge>
+    <edge source="RPTOR" target="AKT1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="RPTOR" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="RRAGC">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPTOR" target="PRKAA1">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="RPTOR" target="AKT3">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="RPTOR" target="ATG7">
+      <data key="d0">731</data>
+    </edge>
+    <edge source="RPTOR" target="SQSTM1">
+      <data key="d0">939</data>
+    </edge>
+    <edge source="RPTOR" target="HIF1A">
+      <data key="d0">866</data>
+    </edge>
+    <edge source="RPTOR" target="RPS6KB2">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="RPTOR" target="ULK1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="RPTOR" target="INS">
+      <data key="d0">764</data>
+    </edge>
+    <edge source="RPTOR" target="DDIT4">
+      <data key="d0">840</data>
+    </edge>
+    <edge source="RPTOR" target="DEPDC5">
+      <data key="d0">725</data>
+    </edge>
+    <edge source="RGN" target="SEC16A">
+      <data key="d0">883</data>
+    </edge>
+    <edge source="PRKCD" target="MAPK1">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="PRKCD" target="PIK3R2">
+      <data key="d0">916</data>
+    </edge>
+    <edge source="PRKCD" target="PIK3R3">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="PRKCD" target="MAP2K2">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="PRKCD" target="MAPK3">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="PRKCD" target="PRKCQ">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="PRKCD" target="MAP2K1">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="PRKCD" target="IRS1">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="PRKCD" target="PIK3R1">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="PRKCD" target="MAPK8">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="PRKCD" target="RAF1">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="PRKCD" target="PIK3CB">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="POLR2E" target="SSRP1">
+      <data key="d0">900</data>
+    </edge>
+    <edge source="POLR2E" target="RUVBL1">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="POLR2E" target="POLR2L">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="POLR2E" target="PPP2CA">
+      <data key="d0">837</data>
+    </edge>
+    <edge source="POLR2E" target="H4C14">
+      <data key="d0">875</data>
+    </edge>
+    <edge source="POLR2E" target="H4C12">
+      <data key="d0">875</data>
+    </edge>
+    <edge source="CD2AP" target="PIK3CB">
+      <data key="d0">714</data>
+    </edge>
+    <edge source="CD2AP" target="INPP5D">
+      <data key="d0">890</data>
+    </edge>
+    <edge source="CD2AP" target="CAPZB">
+      <data key="d0">896</data>
+    </edge>
+    <edge source="CD2AP" target="MS4A6A">
+      <data key="d0">772</data>
+    </edge>
+    <edge source="SUV39H2" target="H3-5">
+      <data key="d0">741</data>
+    </edge>
+    <edge source="PIK3R1" target="PIK3R2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R1" target="KRAS">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="PIK3R1" target="PIK3C3">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="PIK3R1" target="PIK3R3">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="PIK3R1" target="TXK">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="PIK3R1" target="MRAS">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="PIK3R1" target="IRS1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R1" target="MTOR">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="PIK3R1" target="NRAS">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="PIK3R1" target="PTEN">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="PIK3R1" target="AKT2">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="PIK3R1" target="INS">
+      <data key="d0">824</data>
+    </edge>
+    <edge source="PIK3R1" target="FGFR1">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="PIK3R1" target="LIFR">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="PIK3R1" target="RAF1">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="PIK3R1" target="INPP5D">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="PIK3R1" target="HRAS">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="PIK3R1" target="AKT1">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="PIK3R1" target="PIK3CB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R1" target="AKT3">
+      <data key="d0">977</data>
+    </edge>
+    <edge source="PIK3R1" target="IGF1R">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="BCL2" target="MAPK1">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="BCL2" target="PPP2CB">
+      <data key="d0">904</data>
+    </edge>
+    <edge source="BCL2" target="CTSD">
+      <data key="d0">949</data>
+    </edge>
+    <edge source="BCL2" target="ATG14">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="BCL2" target="KRAS">
+      <data key="d0">862</data>
+    </edge>
+    <edge source="BCL2" target="PIK3C3">
+      <data key="d0">976</data>
+    </edge>
+    <edge source="BCL2" target="MAPK3">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="BCL2" target="ATG3">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="BCL2" target="MAP2K1">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="BCL2" target="IRS1">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="BCL2" target="ITPR1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="BCL2" target="EIF2AK3">
+      <data key="d0">729</data>
+    </edge>
+    <edge source="BCL2" target="PRKACA">
+      <data key="d0">706</data>
+    </edge>
+    <edge source="BCL2" target="CFLAR">
+      <data key="d0">802</data>
+    </edge>
+    <edge source="BCL2" target="CTSL">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="BCL2" target="ATG7">
+      <data key="d0">807</data>
+    </edge>
+    <edge source="BCL2" target="MTOR">
+      <data key="d0">765</data>
+    </edge>
+    <edge source="BCL2" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BCL2" target="ATG5">
+      <data key="d0">845</data>
+    </edge>
+    <edge source="BCL2" target="NRAS">
+      <data key="d0">764</data>
+    </edge>
+    <edge source="BCL2" target="PRKACB">
+      <data key="d0">707</data>
+    </edge>
+    <edge source="BCL2" target="PTEN">
+      <data key="d0">815</data>
+    </edge>
+    <edge source="BCL2" target="MMP9">
+      <data key="d0">804</data>
+    </edge>
+    <edge source="BCL2" target="PRKACG">
+      <data key="d0">700</data>
+    </edge>
+    <edge source="BCL2" target="SQSTM1">
+      <data key="d0">812</data>
+    </edge>
+    <edge source="BCL2" target="AKT2">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="BCL2" target="BAD">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BCL2" target="MAPK8">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="BCL2" target="INS">
+      <data key="d0">721</data>
+    </edge>
+    <edge source="BCL2" target="BCLAF1">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="BCL2" target="IGF1R">
+      <data key="d0">781</data>
+    </edge>
+    <edge source="BCL2" target="HRAS">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="BCL2" target="RAF1">
+      <data key="d0">892</data>
+    </edge>
+    <edge source="BCL2" target="AKT3">
+      <data key="d0">947</data>
+    </edge>
+    <edge source="BCL2" target="ERN1">
+      <data key="d0">781</data>
+    </edge>
+    <edge source="BCL2" target="BECN2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BCL2" target="DAPK1">
+      <data key="d0">726</data>
+    </edge>
+    <edge source="BCL2" target="HIF1A">
+      <data key="d0">946</data>
+    </edge>
+    <edge source="BCL2" target="AKT1">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="BCL2" target="PPP2CA">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="BCL2" target="AMBRA1">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="IRF1" target="SMARCA4">
+      <data key="d0">730</data>
+    </edge>
+    <edge source="PNLIP" target="INS">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="IGBP1" target="PPP2CB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="IGBP1" target="DEPTOR">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="IGBP1" target="MTOR">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="IGBP1" target="PPP2CA">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="IGBP1" target="AKT1S1">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="ERCC6L" target="EXO1">
+      <data key="d0">882</data>
+    </edge>
+    <edge source="H4C12" target="H2BC1">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="H4C12" target="SSRP1">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="H4C12" target="RUVBL1">
+      <data key="d0">862</data>
+    </edge>
+    <edge source="H4C12" target="POLR2L">
+      <data key="d0">875</data>
+    </edge>
+    <edge source="H4C12" target="H1-5">
+      <data key="d0">774</data>
+    </edge>
+    <edge source="H4C12" target="H3-5">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="H4C12" target="SMARCA4">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="H4C12" target="CENPW">
+      <data key="d0">812</data>
+    </edge>
+    <edge source="H4C12" target="H4C14">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="H4C12" target="H2BC26">
+      <data key="d0">941</data>
+    </edge>
+    <edge source="H4C12" target="H3C7">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="H4C12" target="H3C3">
+      <data key="d0">981</data>
+    </edge>
+    <edge source="AKT1S1" target="TSC2">
+      <data key="d0">853</data>
+    </edge>
+    <edge source="AKT1S1" target="RPS6KB1">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="AKT1S1" target="RHEB">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="AKT1S1" target="RRAGB">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="AKT1S1" target="DEPTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="AKT1S1" target="TSC1">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="AKT1S1" target="RPS6KB2">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="AKT1S1" target="PRKACA">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="AKT1S1" target="ULK1">
+      <data key="d0">951</data>
+    </edge>
+    <edge source="AKT1S1" target="ATG101">
+      <data key="d0">957</data>
+    </edge>
+    <edge source="AKT1S1" target="PRKAA1">
+      <data key="d0">741</data>
+    </edge>
+    <edge source="AKT1S1" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="AKT1S1" target="PRKACB">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="AKT1S1" target="RRAGC">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="AKT1S1" target="PRKACG">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="AKT1S1" target="RRAGA">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="AKT1S1" target="AKT3">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="AKT1S1" target="ATG13">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="AKT1S1" target="AKT2">
+      <data key="d0">967</data>
+    </edge>
+    <edge source="AKT1S1" target="AKT1">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="PIK3R2" target="MRAS">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="PIK3R2" target="PIK3R3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R2" target="KRAS">
+      <data key="d0">946</data>
+    </edge>
+    <edge source="PIK3R2" target="TXK">
+      <data key="d0">909</data>
+    </edge>
+    <edge source="PIK3R2" target="IRS1">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="PIK3R2" target="AKT1">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PIK3R2" target="MTOR">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="PIK3R2" target="PTEN">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="PIK3R2" target="PIK3C3">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="PIK3R2" target="AKT2">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="PIK3R2" target="NRAS">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="PIK3R2" target="PIK3CB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R2" target="AKT3">
+      <data key="d0">967</data>
+    </edge>
+    <edge source="PIK3R2" target="INPP5D">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="PIK3R2" target="RAF1">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="PIK3R2" target="FGFR1">
+      <data key="d0">948</data>
+    </edge>
+    <edge source="PIK3R2" target="HRAS">
+      <data key="d0">930</data>
+    </edge>
+    <edge source="PIK3R2" target="IGF1R">
+      <data key="d0">964</data>
+    </edge>
+    <edge source="PIK3R2" target="LIFR">
+      <data key="d0">900</data>
+    </edge>
+    <edge source="KCNN4" target="PRKCG">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="PRKACB" target="GABARAPL2">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="PRKACB" target="MAPK1">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="PRKACB" target="RPS6KB1">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="PRKACB" target="GLI1">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="PRKACB" target="MAP2K2">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="PRKACB" target="MAPK3">
+      <data key="d0">958</data>
+    </edge>
+    <edge source="PRKACB" target="MAP2K1">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="PRKACB" target="ITPR1">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="PRKACB" target="GABARAP">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="PRKACB" target="RPS6KB2">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="PRKACB" target="PRKACA">
+      <data key="d0">987</data>
+    </edge>
+    <edge source="PRKACB" target="ULK1">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="PRKACB" target="TNNI3">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="PRKACB" target="PRKAA1">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="PRKACB" target="CSNK1G3">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="PRKACB" target="RAF1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PRKACB" target="INS">
+      <data key="d0">732</data>
+    </edge>
+    <edge source="PRKACB" target="IGF1R">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="PRKACB" target="BAD">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="PRKACB" target="GABARAPL1">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="PRKACB" target="KCNK2">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="PRKACB" target="PRKACG">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="TXK" target="PIK3R3">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="TXK" target="PIK3CB">
+      <data key="d0">916</data>
+    </edge>
+    <edge source="DEPTOR" target="TSC2">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="DEPTOR" target="RPS6KB1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="DEPTOR" target="RHEB">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="DEPTOR" target="RRAGB">
+      <data key="d0">820</data>
+    </edge>
+    <edge source="DEPTOR" target="RRAGA">
+      <data key="d0">890</data>
+    </edge>
+    <edge source="DEPTOR" target="RRAGC">
+      <data key="d0">843</data>
+    </edge>
+    <edge source="DEPTOR" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="DEPTOR" target="RPS6KB2">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="DEPTOR" target="ULK1">
+      <data key="d0">951</data>
+    </edge>
+    <edge source="NRBF2" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NRBF2" target="PIK3C3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NRBF2" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NRBF2" target="ULK1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NRBF2" target="PIK3R4">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NRBF2" target="AMBRA1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="NRBF2" target="BECN2">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="NRBF2" target="ATG101">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="RAB7B" target="DYNC1LI1">
+      <data key="d0">801</data>
+    </edge>
+    <edge source="RAB7B" target="RILP">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="RAB7B" target="VPS33B">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="FMN1" target="PFN4">
+      <data key="d0">810</data>
+    </edge>
+    <edge source="ATP5ME" target="NDUFB10">
+      <data key="d0">823</data>
+    </edge>
+    <edge source="ATP5ME" target="ATP6V0C">
+      <data key="d0">823</data>
+    </edge>
+    <edge source="ATP5ME" target="NDUFV2">
+      <data key="d0">718</data>
+    </edge>
+    <edge source="EFNA1" target="IGF1R">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="EFNA1" target="FGFR1">
+      <data key="d0">741</data>
+    </edge>
+    <edge source="PRKCG" target="MAPK1">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="PRKCG" target="PPP2CB">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="PRKCG" target="KRAS">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="PRKCG" target="MAPK3">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="PRKCG" target="HRAS">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="PRKCG" target="RAF1">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="PRKCG" target="ELK1">
+      <data key="d0">902</data>
+    </edge>
+    <edge source="PRKCG" target="NRAS">
+      <data key="d0">904</data>
+    </edge>
+    <edge source="PRKCG" target="ITPR1">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="PRKCG" target="MTOR">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="PRKCG" target="PPP2CA">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="PRKCG" target="MRAS">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="EIF4E3" target="AGO2">
+      <data key="d0">758</data>
+    </edge>
+    <edge source="TBK1" target="RPS6KB1">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="TBK1" target="TANK">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TBK1" target="WIPI2">
+      <data key="d0">775</data>
+    </edge>
+    <edge source="TBK1" target="ATG9A">
+      <data key="d0">704</data>
+    </edge>
+    <edge source="TBK1" target="SMCR8">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="TBK1" target="AKT1">
+      <data key="d0">873</data>
+    </edge>
+    <edge source="TBK1" target="MTOR">
+      <data key="d0">722</data>
+    </edge>
+    <edge source="TBK1" target="SQSTM1">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="UBE3A" target="TSC2">
+      <data key="d0">981</data>
+    </edge>
+    <edge source="UBE3A" target="PSMC1">
+      <data key="d0">846</data>
+    </edge>
+    <edge source="UBE3A" target="TSC1">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="UBE3A" target="PSMC5">
+      <data key="d0">707</data>
+    </edge>
+    <edge source="UBE3A" target="PTEN">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="POLA1" target="SSRP1">
+      <data key="d0">732</data>
+    </edge>
+    <edge source="POLA1" target="DONSON">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="POLA1" target="EXO1">
+      <data key="d0">846</data>
+    </edge>
+    <edge source="H4C14" target="H2BC1">
+      <data key="d0">941</data>
+    </edge>
+    <edge source="H4C14" target="SSRP1">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="H4C14" target="RUVBL1">
+      <data key="d0">861</data>
+    </edge>
+    <edge source="H4C14" target="POLR2L">
+      <data key="d0">875</data>
+    </edge>
+    <edge source="H4C14" target="H1-5">
+      <data key="d0">755</data>
+    </edge>
+    <edge source="H4C14" target="H3-5">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="H4C14" target="SMARCA4">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="H4C14" target="CENPW">
+      <data key="d0">812</data>
+    </edge>
+    <edge source="H4C14" target="H3C3">
+      <data key="d0">982</data>
+    </edge>
+    <edge source="H4C14" target="H2BC26">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="H4C14" target="H3C7">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="PRKACA" target="GABARAPL2">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="PRKACA" target="MAPK1">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="PRKACA" target="RPS6KB1">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="PRKACA" target="GLI1">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="PRKACA" target="MAP2K2">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="PRKACA" target="MAPK3">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="PRKACA" target="MAP2K1">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="PRKACA" target="ITPR1">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="PRKACA" target="GABARAP">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="PRKACA" target="RPS6KB2">
+      <data key="d0">930</data>
+    </edge>
+    <edge source="PRKACA" target="ULK1">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="PRKACA" target="INS">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="PRKACA" target="IGF1R">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="PRKACA" target="CDK5RAP2">
+      <data key="d0">721</data>
+    </edge>
+    <edge source="PRKACA" target="RAF1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PRKACA" target="CSNK1G3">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="PRKACA" target="TNNI3">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="PRKACA" target="PRKAA1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PRKACA" target="BAD">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PRKACA" target="GABARAPL1">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="PRKACA" target="KCNK2">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="PRKACA" target="PRKACG">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="MAP2K2" target="MAPK1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MAP2K2" target="PPP2CB">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="MAP2K2" target="KRAS">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="MAP2K2" target="PRKACG">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="MAP2K2" target="PPP2CA">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="MAP2K2" target="MAPK8">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="MAP2K2" target="MAP2K1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="MAP2K2" target="MAPK3">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="MAP2K2" target="NRAS">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="MAP2K2" target="MAP3K7">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="MAP2K2" target="RAF1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="MAP2K2" target="HRAS">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="RRM2B" target="TK2">
+      <data key="d0">821</data>
+    </edge>
+    <edge source="RRM2B" target="HDDC3">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="ATG4A" target="GABARAPL2">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="ATG4A" target="ATG14">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="ATG4A" target="ATG3">
+      <data key="d0">916</data>
+    </edge>
+    <edge source="ATG4A" target="GABARAP">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="ATG4A" target="ULK1">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="ATG4A" target="ATG101">
+      <data key="d0">731</data>
+    </edge>
+    <edge source="ATG4A" target="ATG7">
+      <data key="d0">897</data>
+    </edge>
+    <edge source="ATG4A" target="BECN1">
+      <data key="d0">739</data>
+    </edge>
+    <edge source="ATG4A" target="ATG5">
+      <data key="d0">871</data>
+    </edge>
+    <edge source="ATG4A" target="ATG16L1">
+      <data key="d0">817</data>
+    </edge>
+    <edge source="ATG4A" target="GABARAPL1">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="ATG4A" target="ATG9A">
+      <data key="d0">743</data>
+    </edge>
+    <edge source="RPS6KA6" target="MAPK1">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="RPS6KA6" target="TSC2">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="RPS6KA6" target="KRAS">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="RPS6KA6" target="TBC1D7">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="RPS6KA6" target="HRAS">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="RPS6KA6" target="TSC1">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="RPS6KA6" target="NRAS">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="RPS6KA6" target="MAPK3">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="R3HDM4" target="NDUFV2">
+      <data key="d0">842</data>
+    </edge>
+    <edge source="GIMAP6" target="GABARAPL2">
+      <data key="d0">750</data>
+    </edge>
+    <edge source="KRAS" target="MAPK1">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="KRAS" target="AGO2">
+      <data key="d0">734</data>
+    </edge>
+    <edge source="KRAS" target="HGF">
+      <data key="d0">852</data>
+    </edge>
+    <edge source="KRAS" target="MTOR">
+      <data key="d0">826</data>
+    </edge>
+    <edge source="KRAS" target="MAP2K1">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="KRAS" target="PTEN">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="KRAS" target="PIK3R3">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="KRAS" target="PRKCQ">
+      <data key="d0">798</data>
+    </edge>
+    <edge source="KRAS" target="HRAS">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="KRAS" target="AREG">
+      <data key="d0">766</data>
+    </edge>
+    <edge source="KRAS" target="AKT1">
+      <data key="d0">904</data>
+    </edge>
+    <edge source="KRAS" target="RASGRP4">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="KRAS" target="NRAS">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="KRAS" target="MAPK3">
+      <data key="d0">982</data>
+    </edge>
+    <edge source="KRAS" target="MAPK8">
+      <data key="d0">948</data>
+    </edge>
+    <edge source="KRAS" target="STK11">
+      <data key="d0">880</data>
+    </edge>
+    <edge source="KRAS" target="RASGRP2">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="KRAS" target="FGFR1">
+      <data key="d0">981</data>
+    </edge>
+    <edge source="KRAS" target="RAF1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="KRAS" target="IGF1R">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="KRAS" target="PIK3CB">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="INPP5D" target="PIK3R3">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="INPP5D" target="PTEN">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="INPP5D" target="PIK3CB">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="SPSB3" target="CUL5">
+      <data key="d0">791</data>
+    </edge>
+    <edge source="H2BC1" target="EPC1">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="H2BC1" target="H1-6">
+      <data key="d0">724</data>
+    </edge>
+    <edge source="H2BC1" target="H3C3">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="H2BC1" target="H3-5">
+      <data key="d0">866</data>
+    </edge>
+    <edge source="H2BC1" target="RUVBL1">
+      <data key="d0">902</data>
+    </edge>
+    <edge source="H2BC1" target="H3C7">
+      <data key="d0">862</data>
+    </edge>
+    <edge source="H2BC1" target="SSRP1">
+      <data key="d0">764</data>
+    </edge>
+    <edge source="H2BC1" target="H2BC26">
+      <data key="d0">876</data>
+    </edge>
+    <edge source="GABARAPL1" target="GABARAPL2">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG14">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="GABARAPL1" target="PIK3C3">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="GABARAPL1" target="WIPI2">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="GABARAPL1" target="GABARAP">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG4C">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="GABARAPL1" target="ULK1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="GABARAPL1" target="CD300C">
+      <data key="d0">978</data>
+    </edge>
+    <edge source="GABARAPL1" target="LAMP1">
+      <data key="d0">759</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG101">
+      <data key="d0">826</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG7">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="GABARAPL1" target="PIK3R4">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG2B">
+      <data key="d0">775</data>
+    </edge>
+    <edge source="GABARAPL1" target="MTOR">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="GABARAPL1" target="BECN1">
+      <data key="d0">987</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG5">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="GABARAPL1" target="TP53INP2">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="GABARAPL1" target="PRKACG">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="GABARAPL1" target="SQSTM1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG16L1">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG9A">
+      <data key="d0">731</data>
+    </edge>
+    <edge source="GABARAPL1" target="ATG13">
+      <data key="d0">987</data>
+    </edge>
+    <edge source="GABARAPL1" target="BECN2">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="H3-5" target="SSRP1">
+      <data key="d0">747</data>
+    </edge>
+    <edge source="H3-5" target="CBX2">
+      <data key="d0">852</data>
+    </edge>
+    <edge source="H3-5" target="SMARCA4">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="H3-5" target="H3C3">
+      <data key="d0">856</data>
+    </edge>
+    <edge source="H3-5" target="TLK1">
+      <data key="d0">722</data>
+    </edge>
+    <edge source="H3-5" target="H3C7">
+      <data key="d0">855</data>
+    </edge>
+    <edge source="H3-5" target="AKT1">
+      <data key="d0">790</data>
+    </edge>
+    <edge source="H3-5" target="H2BC26">
+      <data key="d0">873</data>
+    </edge>
+    <edge source="TUBA4B" target="TUBB2A">
+      <data key="d0">718</data>
+    </edge>
+    <edge source="EXO1" target="TPX2">
+      <data key="d0">807</data>
+    </edge>
+    <edge source="EXO1" target="EME1">
+      <data key="d0">915</data>
+    </edge>
+    <edge source="ATG2B" target="ATG14">
+      <data key="d0">733</data>
+    </edge>
+    <edge source="ATG2B" target="WIPI2">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="ATG2B" target="GABARAP">
+      <data key="d0">733</data>
+    </edge>
+    <edge source="ATG2B" target="ATG4C">
+      <data key="d0">703</data>
+    </edge>
+    <edge source="ATG2B" target="ULK1">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="ATG2B" target="ATG7">
+      <data key="d0">713</data>
+    </edge>
+    <edge source="ATG2B" target="ATG5">
+      <data key="d0">776</data>
+    </edge>
+    <edge source="ATG2B" target="ATG9B">
+      <data key="d0">835</data>
+    </edge>
+    <edge source="ATG2B" target="ATG9A">
+      <data key="d0">809</data>
+    </edge>
+    <edge source="STRN3" target="PPP2CB">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="STRN3" target="PPP2CA">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="DAPK3" target="MAPK1">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="DAPK3" target="MAPK3">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="DAPK3" target="BECN1">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="DAPK3" target="DAPK1">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="DAPK3" target="DAPK2">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="DAPK3" target="BECN2">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="ATG16L2" target="ATG3">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="ATG16L2" target="WIPI2">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="ATG16L2" target="RAB33B">
+      <data key="d0">949</data>
+    </edge>
+    <edge source="ATG16L2" target="ULK1">
+      <data key="d0">726</data>
+    </edge>
+    <edge source="ATG16L2" target="ATG9B">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="ATG16L2" target="ATG16L1">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="ATG16L2" target="ATG5">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3C3" target="GABARAPL2">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="PIK3C3" target="FIG4">
+      <data key="d0">951</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3C3" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG4C">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="PIK3C3" target="ULK1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG5">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="PIK3C3" target="SQSTM1">
+      <data key="d0">812</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG7">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="PIK3C3" target="PIK3CB">
+      <data key="d0">813</data>
+    </edge>
+    <edge source="PIK3C3" target="BECN2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3C3" target="PRKAA1">
+      <data key="d0">708</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG16L1">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="PIK3C3" target="VMP1">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="PIK3C3" target="WIPI2">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PIK3C3" target="CD300C">
+      <data key="d0">780</data>
+    </edge>
+    <edge source="PIK3C3" target="GABARAP">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="PIK3C3" target="PTEN">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="PIK3C3" target="RHEB">
+      <data key="d0">774</data>
+    </edge>
+    <edge source="PIK3C3" target="IRS1">
+      <data key="d0">780</data>
+    </edge>
+    <edge source="PIK3C3" target="AKT1">
+      <data key="d0">780</data>
+    </edge>
+    <edge source="PIK3C3" target="AMBRA1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3C3" target="PIK3R4">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3C3" target="MTMR4">
+      <data key="d0">819</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG9B">
+      <data key="d0">751</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG101">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG13">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="PIK3C3" target="MTMR14">
+      <data key="d0">779</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG3">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="PIK3C3" target="ATG9A">
+      <data key="d0">824</data>
+    </edge>
+    <edge source="PIK3C3" target="PIK3R3">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="SQSTM1" target="GABARAPL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="SQSTM1" target="RPS6KB1">
+      <data key="d0">834</data>
+    </edge>
+    <edge source="SQSTM1" target="FIG4">
+      <data key="d0">755</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG14">
+      <data key="d0">822</data>
+    </edge>
+    <edge source="SQSTM1" target="TANK">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="SQSTM1" target="CUL3">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG3">
+      <data key="d0">804</data>
+    </edge>
+    <edge source="SQSTM1" target="RAB8A">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="SQSTM1" target="GABARAP">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="SQSTM1" target="EIF2AK3">
+      <data key="d0">726</data>
+    </edge>
+    <edge source="SQSTM1" target="TRIM55">
+      <data key="d0">792</data>
+    </edge>
+    <edge source="SQSTM1" target="ULK1">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="SQSTM1" target="CD300C">
+      <data key="d0">981</data>
+    </edge>
+    <edge source="SQSTM1" target="LAMP1">
+      <data key="d0">782</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG101">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG7">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="SQSTM1" target="PIK3R4">
+      <data key="d0">793</data>
+    </edge>
+    <edge source="SQSTM1" target="MTOR">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="SQSTM1" target="BECN1">
+      <data key="d0">958</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG5">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="SQSTM1" target="RAB39B">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="SQSTM1" target="RRAGC">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="SQSTM1" target="ERN1">
+      <data key="d0">712</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG16L1">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="SQSTM1" target="AMBRA1">
+      <data key="d0">747</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG13">
+      <data key="d0">751</data>
+    </edge>
+    <edge source="SQSTM1" target="ATG9A">
+      <data key="d0">746</data>
+    </edge>
+    <edge source="AGO2" target="PTEN">
+      <data key="d0">778</data>
+    </edge>
+    <edge source="AGO2" target="PRORP">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="AGO2" target="ERN1">
+      <data key="d0">759</data>
+    </edge>
+    <edge source="AGO2" target="DDX5">
+      <data key="d0">907</data>
+    </edge>
+    <edge source="GLIPR2" target="BECN1">
+      <data key="d0">894</data>
+    </edge>
+    <edge source="APOBEC3H" target="CUL5">
+      <data key="d0">874</data>
+    </edge>
+    <edge source="ATG16L1" target="GABARAPL2">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG14">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG16L1" target="WIPI2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG16L1" target="RAB33B">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG16L1" target="GABARAP">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG4C">
+      <data key="d0">810</data>
+    </edge>
+    <edge source="ATG16L1" target="ULK1">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG101">
+      <data key="d0">897</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG7">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="ATG16L1" target="PIK3R4">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="ATG16L1" target="BECN1">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG5">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG13">
+      <data key="d0">949</data>
+    </edge>
+    <edge source="ATG16L1" target="ATG9A">
+      <data key="d0">897</data>
+    </edge>
+    <edge source="ATG16L1" target="AMBRA1">
+      <data key="d0">809</data>
+    </edge>
+    <edge source="HGF" target="TIMP1">
+      <data key="d0">745</data>
+    </edge>
+    <edge source="HGF" target="AKT1">
+      <data key="d0">882</data>
+    </edge>
+    <edge source="HGF" target="MMP9">
+      <data key="d0">799</data>
+    </edge>
+    <edge source="HGF" target="FGFR1">
+      <data key="d0">814</data>
+    </edge>
+    <edge source="HGF" target="IGF1R">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="HGF" target="INS">
+      <data key="d0">789</data>
+    </edge>
+    <edge source="SSRP1" target="POLR2L">
+      <data key="d0">883</data>
+    </edge>
+    <edge source="SSRP1" target="H3C3">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="SSRP1" target="H3C7">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="H3C7" target="CBX2">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="H3C7" target="RUVBL1">
+      <data key="d0">876</data>
+    </edge>
+    <edge source="H3C7" target="SMARCA4">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="H3C7" target="H2BC26">
+      <data key="d0">878</data>
+    </edge>
+    <edge source="H3C7" target="H3C3">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="TSC1" target="MAPK1">
+      <data key="d0">926</data>
+    </edge>
+    <edge source="TSC1" target="TSC2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TSC1" target="RPS6KB1">
+      <data key="d0">906</data>
+    </edge>
+    <edge source="TSC1" target="RHEB">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TSC1" target="RRAGB">
+      <data key="d0">852</data>
+    </edge>
+    <edge source="TSC1" target="MAPK3">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="TSC1" target="MTOR">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="TSC1" target="AKT1">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="TSC1" target="RRAGC">
+      <data key="d0">881</data>
+    </edge>
+    <edge source="TSC1" target="AKT2">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="TSC1" target="PTEN">
+      <data key="d0">801</data>
+    </edge>
+    <edge source="TSC1" target="RRAGA">
+      <data key="d0">891</data>
+    </edge>
+    <edge source="TSC1" target="RUVBL1">
+      <data key="d0">745</data>
+    </edge>
+    <edge source="TSC1" target="DDIT4">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="TSC1" target="TBC1D7">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TSC1" target="PSMG2">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="TSC1" target="RPS6KB2">
+      <data key="d0">874</data>
+    </edge>
+    <edge source="TSC1" target="AKT3">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="TSC1" target="PRKAA1">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="AKT1" target="MAPK1">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="AKT1" target="TSC2">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="AKT1" target="PPP2CB">
+      <data key="d0">736</data>
+    </edge>
+    <edge source="AKT1" target="RPS6KB1">
+      <data key="d0">982</data>
+    </edge>
+    <edge source="AKT1" target="GLI1">
+      <data key="d0">794</data>
+    </edge>
+    <edge source="AKT1" target="RHEB">
+      <data key="d0">947</data>
+    </edge>
+    <edge source="AKT1" target="PIK3R3">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="AKT1" target="MAPK3">
+      <data key="d0">957</data>
+    </edge>
+    <edge source="AKT1" target="IRS1">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="AKT1" target="ITPR1">
+      <data key="d0">981</data>
+    </edge>
+    <edge source="AKT1" target="DDIT4">
+      <data key="d0">732</data>
+    </edge>
+    <edge source="AKT1" target="RPS6KB2">
+      <data key="d0">949</data>
+    </edge>
+    <edge source="AKT1" target="STK11">
+      <data key="d0">748</data>
+    </edge>
+    <edge source="AKT1" target="ATG7">
+      <data key="d0">735</data>
+    </edge>
+    <edge source="AKT1" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="AKT1" target="BECN1">
+      <data key="d0">918</data>
+    </edge>
+    <edge source="AKT1" target="ATG5">
+      <data key="d0">772</data>
+    </edge>
+    <edge source="AKT1" target="NRAS">
+      <data key="d0">815</data>
+    </edge>
+    <edge source="AKT1" target="PTEN">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="AKT1" target="MMP9">
+      <data key="d0">827</data>
+    </edge>
+    <edge source="AKT1" target="AKT2">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="AKT1" target="BAD">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="AKT1" target="MAPK8">
+      <data key="d0">706</data>
+    </edge>
+    <edge source="AKT1" target="INS">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="AKT1" target="RAF1">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="AKT1" target="HRAS">
+      <data key="d0">896</data>
+    </edge>
+    <edge source="AKT1" target="PPP2CA">
+      <data key="d0">980</data>
+    </edge>
+    <edge source="AKT1" target="HIF1A">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="AKT1" target="TCL1A">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="AKT1" target="TBC1D7">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="AKT1" target="AKT3">
+      <data key="d0">958</data>
+    </edge>
+    <edge source="AKT1" target="PIK3CB">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="PPP2CB" target="MAPK1">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="PPP2CB" target="RPS6KB2">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="PPP2CB" target="AKT3">
+      <data key="d0">717</data>
+    </edge>
+    <edge source="PPP2CB" target="TNNI3">
+      <data key="d0">904</data>
+    </edge>
+    <edge source="PPP2CB" target="ULK1">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="PPP2CB" target="PPP2CA">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="PPP2CB" target="ATG101">
+      <data key="d0">900</data>
+    </edge>
+    <edge source="PPP2CB" target="MAP2K1">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="PPP2CB" target="RPS6KB1">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="PPP2CB" target="MAPK3">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="PPP2CB" target="AKT2">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="AREG" target="NRG4">
+      <data key="d0">725</data>
+    </edge>
+    <edge source="AREG" target="FGFR1">
+      <data key="d0">802</data>
+    </edge>
+    <edge source="AREG" target="IGF1R">
+      <data key="d0">792</data>
+    </edge>
+    <edge source="TUBA4A" target="TUBB2A">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="TUBA4A" target="DYNC1LI1">
+      <data key="d0">739</data>
+    </edge>
+    <edge source="WDR75" target="DIMT1">
+      <data key="d0">961</data>
+    </edge>
+    <edge source="WDR75" target="TEX10">
+      <data key="d0">875</data>
+    </edge>
+    <edge source="WDR75" target="UTP14A">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="CDK5RAP2" target="LRRC45">
+      <data key="d0">767</data>
+    </edge>
+    <edge source="MAPK3" target="MAPK1">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="MAPK3" target="TSC2">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="MAPK3" target="RPS6KB1">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="MAPK3" target="PPP2CA">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="MAPK3" target="HMGB1">
+      <data key="d0">739</data>
+    </edge>
+    <edge source="MAPK3" target="DAPK2">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="MAPK3" target="MAP3K7">
+      <data key="d0">924</data>
+    </edge>
+    <edge source="MAPK3" target="NRAS">
+      <data key="d0">970</data>
+    </edge>
+    <edge source="MAPK3" target="IRS1">
+      <data key="d0">833</data>
+    </edge>
+    <edge source="MAPK3" target="MMP9">
+      <data key="d0">741</data>
+    </edge>
+    <edge source="MAPK3" target="DAPK1">
+      <data key="d0">980</data>
+    </edge>
+    <edge source="MAPK3" target="HIF1A">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="MAPK3" target="INS">
+      <data key="d0">813</data>
+    </edge>
+    <edge source="MAPK3" target="RAF1">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="MAPK3" target="PRKACG">
+      <data key="d0">957</data>
+    </edge>
+    <edge source="MAPK3" target="PTEN">
+      <data key="d0">756</data>
+    </edge>
+    <edge source="MAPK3" target="AKT2">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="MAPK3" target="MAP2K1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MAPK3" target="BAD">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="MAPK3" target="MTOR">
+      <data key="d0">762</data>
+    </edge>
+    <edge source="MAPK3" target="ELK1">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="MAPK3" target="AKT3">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="MAPK3" target="RPS6KB2">
+      <data key="d0">930</data>
+    </edge>
+    <edge source="MAPK3" target="HRAS">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="MAPK3" target="TBC1D7">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="KCNJ11" target="INS">
+      <data key="d0">874</data>
+    </edge>
+    <edge source="H2BC26" target="RUVBL1">
+      <data key="d0">794</data>
+    </edge>
+    <edge source="H2BC26" target="H3C3">
+      <data key="d0">896</data>
+    </edge>
+    <edge source="SUPT20H" target="TAF5L">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="SUPT20H" target="MAP3K7">
+      <data key="d0">841</data>
+    </edge>
+    <edge source="SUPT20H" target="ATG9A">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="MAP2K1" target="MAPK1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="MAP2K1" target="PTEN">
+      <data key="d0">792</data>
+    </edge>
+    <edge source="MAP2K1" target="MAP3K7">
+      <data key="d0">928</data>
+    </edge>
+    <edge source="MAP2K1" target="NRAS">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="MAP2K1" target="BAD">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="MAP2K1" target="MAPK8">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="MAP2K1" target="PPP2CA">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="MAP2K1" target="PRKACG">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="MAP2K1" target="HRAS">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="MAP2K1" target="RAF1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPS6KB1" target="MAPK1">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="RPS6KB1" target="TSC2">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="RPS6KB1" target="AKT3">
+      <data key="d0">943</data>
+    </edge>
+    <edge source="RPS6KB1" target="RPS6KB2">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="RPS6KB1" target="HIF1A">
+      <data key="d0">730</data>
+    </edge>
+    <edge source="RPS6KB1" target="TBC1D7">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="RPS6KB1" target="INS">
+      <data key="d0">876</data>
+    </edge>
+    <edge source="RPS6KB1" target="BECN1">
+      <data key="d0">728</data>
+    </edge>
+    <edge source="RPS6KB1" target="ATG5">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="RPS6KB1" target="PPP2CA">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="RPS6KB1" target="STK11">
+      <data key="d0">723</data>
+    </edge>
+    <edge source="RPS6KB1" target="RRAGA">
+      <data key="d0">864</data>
+    </edge>
+    <edge source="RPS6KB1" target="PRKACG">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="RPS6KB1" target="AKT2">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="RPS6KB1" target="RRAGB">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="RPS6KB1" target="RHEB">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="RPS6KB1" target="PTEN">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="RPS6KB1" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RPS6KB1" target="IRS1">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="RPS6KB1" target="RRAGC">
+      <data key="d0">858</data>
+    </edge>
+    <edge source="UTP14A" target="DIMT1">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="UTP14A" target="NOP53">
+      <data key="d0">834</data>
+    </edge>
+    <edge source="AMBRA1" target="ATG14">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="AMBRA1" target="ATG3">
+      <data key="d0">753</data>
+    </edge>
+    <edge source="AMBRA1" target="GABARAP">
+      <data key="d0">820</data>
+    </edge>
+    <edge source="AMBRA1" target="ULK1">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="AMBRA1" target="CD300C">
+      <data key="d0">746</data>
+    </edge>
+    <edge source="AMBRA1" target="ATG101">
+      <data key="d0">866</data>
+    </edge>
+    <edge source="AMBRA1" target="ATG7">
+      <data key="d0">816</data>
+    </edge>
+    <edge source="AMBRA1" target="PIK3R4">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="AMBRA1" target="MTOR">
+      <data key="d0">757</data>
+    </edge>
+    <edge source="AMBRA1" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="AMBRA1" target="ATG5">
+      <data key="d0">770</data>
+    </edge>
+    <edge source="AMBRA1" target="ATG13">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="LILRB1" target="CD300C">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="RPL17-C18ORF32" target="NOP53">
+      <data key="d0">762</data>
+    </edge>
+    <edge source="RPL17-C18ORF32" target="GFM1">
+      <data key="d0">806</data>
+    </edge>
+    <edge source="RPL17-C18ORF32" target="NPSR1">
+      <data key="d0">850</data>
+    </edge>
+    <edge source="RPL17-C18ORF32" target="HDDC3">
+      <data key="d0">769</data>
+    </edge>
+    <edge source="NDUFAB1" target="NDUFB10">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NDUFAB1" target="COX7A1">
+      <data key="d0">888</data>
+    </edge>
+    <edge source="NDUFAB1" target="NDUFV2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="STK36" target="GLI1">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="PIK3CB" target="ATG14">
+      <data key="d0">822</data>
+    </edge>
+    <edge source="PIK3CB" target="PIK3R3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3CB" target="MRAS">
+      <data key="d0">961</data>
+    </edge>
+    <edge source="PIK3CB" target="IRS1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="PIK3CB" target="PIK3R4">
+      <data key="d0">864</data>
+    </edge>
+    <edge source="PIK3CB" target="MTOR">
+      <data key="d0">943</data>
+    </edge>
+    <edge source="PIK3CB" target="BECN1">
+      <data key="d0">789</data>
+    </edge>
+    <edge source="PIK3CB" target="NRAS">
+      <data key="d0">947</data>
+    </edge>
+    <edge source="PIK3CB" target="PTEN">
+      <data key="d0">984</data>
+    </edge>
+    <edge source="PIK3CB" target="AKT2">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="PIK3CB" target="FGFR1">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="PIK3CB" target="LIFR">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="PIK3CB" target="RAF1">
+      <data key="d0">939</data>
+    </edge>
+    <edge source="PIK3CB" target="HRAS">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="PIK3CB" target="P3R3URF">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="PIK3CB" target="IGF1R">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PIK3CB" target="AKT3">
+      <data key="d0">964</data>
+    </edge>
+    <edge source="TNNI3" target="PRKACG">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="TNNI3" target="PPP2CA">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="SCOC" target="PSMC5">
+      <data key="d0">709</data>
+    </edge>
+    <edge source="IGF1R" target="SNAP29">
+      <data key="d0">703</data>
+    </edge>
+    <edge source="IGF1R" target="PIK3R3">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="IGF1R" target="IRS1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="IGF1R" target="MTOR">
+      <data key="d0">872</data>
+    </edge>
+    <edge source="IGF1R" target="NRAS">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="IGF1R" target="PTEN">
+      <data key="d0">880</data>
+    </edge>
+    <edge source="IGF1R" target="PRKACG">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="IGF1R" target="INS">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="IGF1R" target="HRAS">
+      <data key="d0">949</data>
+    </edge>
+    <edge source="IGF1R" target="HIF1A">
+      <data key="d0">752</data>
+    </edge>
+    <edge source="AKT2" target="MAPK1">
+      <data key="d0">929</data>
+    </edge>
+    <edge source="AKT2" target="TSC2">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="AKT2" target="PIK3R3">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="AKT2" target="IRS1">
+      <data key="d0">825</data>
+    </edge>
+    <edge source="AKT2" target="RPS6KB2">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="AKT2" target="MTOR">
+      <data key="d0">967</data>
+    </edge>
+    <edge source="AKT2" target="PTEN">
+      <data key="d0">826</data>
+    </edge>
+    <edge source="AKT2" target="PPP2CA">
+      <data key="d0">800</data>
+    </edge>
+    <edge source="AKT2" target="BAD">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="AKT2" target="AKT3">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="AKT2" target="TCL1A">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="AKT2" target="TBC1D7">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="AKT2" target="INS">
+      <data key="d0">846</data>
+    </edge>
+    <edge source="AKT2" target="RAF1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="TRIM8" target="MAP3K7">
+      <data key="d0">795</data>
+    </edge>
+    <edge source="FIG4" target="SH3TC2">
+      <data key="d0">739</data>
+    </edge>
+    <edge source="FIG4" target="MTMR14">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="FIG4" target="MTMR4">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="NOP53" target="NPSR1">
+      <data key="d0">725</data>
+    </edge>
+    <edge source="NOP53" target="PTEN">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="CD300C" target="GABARAPL2">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="CD300C" target="GABARAP">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="CD300C" target="CD300LB">
+      <data key="d0">939</data>
+    </edge>
+    <edge source="MAPK8" target="MAPK1">
+      <data key="d0">747</data>
+    </edge>
+    <edge source="MAPK8" target="PRKCQ">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="MAPK8" target="IRS1">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="MAPK8" target="MTOR">
+      <data key="d0">702</data>
+    </edge>
+    <edge source="MAPK8" target="BECN1">
+      <data key="d0">769</data>
+    </edge>
+    <edge source="MAPK8" target="MAP3K7">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="MAPK8" target="NRAS">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="MAPK8" target="MMP9">
+      <data key="d0">735</data>
+    </edge>
+    <edge source="MAPK8" target="ELK1">
+      <data key="d0">976</data>
+    </edge>
+    <edge source="MAPK8" target="BAD">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="MAPK8" target="HRAS">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="MAPK8" target="INS">
+      <data key="d0">740</data>
+    </edge>
+    <edge source="DEDD" target="BECN1">
+      <data key="d0">871</data>
+    </edge>
+    <edge source="ATG13" target="GABARAPL2">
+      <data key="d0">987</data>
+    </edge>
+    <edge source="ATG13" target="ATG14">
+      <data key="d0">989</data>
+    </edge>
+    <edge source="ATG13" target="RHEB">
+      <data key="d0">816</data>
+    </edge>
+    <edge source="ATG13" target="VMP1">
+      <data key="d0">751</data>
+    </edge>
+    <edge source="ATG13" target="ATG3">
+      <data key="d0">860</data>
+    </edge>
+    <edge source="ATG13" target="WIPI2">
+      <data key="d0">854</data>
+    </edge>
+    <edge source="ATG13" target="GABARAP">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="ATG13" target="ATG4C">
+      <data key="d0">701</data>
+    </edge>
+    <edge source="ATG13" target="ULK1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG13" target="ATG101">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG13" target="ATG7">
+      <data key="d0">872</data>
+    </edge>
+    <edge source="ATG13" target="PIK3R4">
+      <data key="d0">957</data>
+    </edge>
+    <edge source="ATG13" target="MTOR">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="ATG13" target="BECN1">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="ATG13" target="ATG5">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="ATG13" target="RRAGC">
+      <data key="d0">702</data>
+    </edge>
+    <edge source="ATG13" target="SMCR8">
+      <data key="d0">893</data>
+    </edge>
+    <edge source="ATG13" target="ATG9A">
+      <data key="d0">894</data>
+    </edge>
+    <edge source="POLR2L" target="PPP2CA">
+      <data key="d0">820</data>
+    </edge>
+    <edge source="CRIPT" target="BUD13">
+      <data key="d0">800</data>
+    </edge>
+    <edge source="ATG5" target="GABARAPL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG5" target="SNAP29">
+      <data key="d0">776</data>
+    </edge>
+    <edge source="ATG5" target="ATG14">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="ATG5" target="ATG3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG5" target="WIPI2">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="ATG5" target="RAB33B">
+      <data key="d0">949</data>
+    </edge>
+    <edge source="ATG5" target="GABARAP">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="ATG5" target="ATG4C">
+      <data key="d0">882</data>
+    </edge>
+    <edge source="ATG5" target="ULK1">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="ATG5" target="LAMP1">
+      <data key="d0">793</data>
+    </edge>
+    <edge source="ATG5" target="ATG101">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="ATG5" target="ATG7">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG5" target="PIK3R4">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="ATG5" target="MTOR">
+      <data key="d0">830</data>
+    </edge>
+    <edge source="ATG5" target="BECN1">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="ATG5" target="ATG9B">
+      <data key="d0">734</data>
+    </edge>
+    <edge source="ATG5" target="ATG9A">
+      <data key="d0">794</data>
+    </edge>
+    <edge source="ATG5" target="BECN2">
+      <data key="d0">769</data>
+    </edge>
+    <edge source="PRKACG" target="GABARAPL2">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="PRKACG" target="MAPK1">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="PRKACG" target="GLI1">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="PRKACG" target="ITPR1">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="PRKACG" target="GABARAP">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="PRKACG" target="RPS6KB2">
+      <data key="d0">930</data>
+    </edge>
+    <edge source="PRKACG" target="ULK1">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="PRKACG" target="PRKAA1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PRKACG" target="CSNK1G3">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="PRKACG" target="BAD">
+      <data key="d0">926</data>
+    </edge>
+    <edge source="PRKACG" target="KCNK2">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="PRKACG" target="INS">
+      <data key="d0">746</data>
+    </edge>
+    <edge source="PRKACG" target="RAF1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="DAPK1" target="MAPK1">
+      <data key="d0">956</data>
+    </edge>
+    <edge source="DAPK1" target="BECN1">
+      <data key="d0">987</data>
+    </edge>
+    <edge source="DAPK1" target="DAPK2">
+      <data key="d0">903</data>
+    </edge>
+    <edge source="DAPK1" target="BECN2">
+      <data key="d0">919</data>
+    </edge>
+    <edge source="RASD2" target="BECN1">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="TIMP1" target="MMP9">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RAB39B" target="WDR41">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="RAB39B" target="RAB8A">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="RAB39B" target="SMCR8">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="TCL1A" target="AKT3">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="SMU1" target="DDX5">
+      <data key="d0">820</data>
+    </edge>
+    <edge source="SMU1" target="BUD13">
+      <data key="d0">904</data>
+    </edge>
+    <edge source="RAB1A" target="WDR41">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="RAB1A" target="RAB8A">
+      <data key="d0">914</data>
+    </edge>
+    <edge source="RAB1A" target="ULK1">
+      <data key="d0">933</data>
+    </edge>
+    <edge source="RAB1A" target="SEC16A">
+      <data key="d0">707</data>
+    </edge>
+    <edge source="RAB1A" target="VPS33B">
+      <data key="d0">779</data>
+    </edge>
+    <edge source="RAB1A" target="RAB11B">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="RAB1A" target="SMCR8">
+      <data key="d0">752</data>
+    </edge>
+    <edge source="SMARCA4" target="DDX5">
+      <data key="d0">782</data>
+    </edge>
+    <edge source="SMARCA4" target="TBX5">
+      <data key="d0">885</data>
+    </edge>
+    <edge source="SMARCA4" target="RUVBL1">
+      <data key="d0">711</data>
+    </edge>
+    <edge source="SMARCA4" target="STK11">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="SMARCA4" target="HIF1A">
+      <data key="d0">715</data>
+    </edge>
+    <edge source="SMARCA4" target="H3C3">
+      <data key="d0">950</data>
+    </edge>
+    <edge source="SMARCA4" target="ACTG1">
+      <data key="d0">884</data>
+    </edge>
+    <edge source="SMARCA4" target="PTEN">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="PFN4" target="ACTR3">
+      <data key="d0">753</data>
+    </edge>
+    <edge source="PFN4" target="ACTG1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="PIK3R4" target="GABARAPL2">
+      <data key="d0">912</data>
+    </edge>
+    <edge source="PIK3R4" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R4" target="VMP1">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="PIK3R4" target="PIK3R3">
+      <data key="d0">700</data>
+    </edge>
+    <edge source="PIK3R4" target="ATG3">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="PIK3R4" target="WIPI2">
+      <data key="d0">892</data>
+    </edge>
+    <edge source="PIK3R4" target="GABARAP">
+      <data key="d0">867</data>
+    </edge>
+    <edge source="PIK3R4" target="ULK1">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="PIK3R4" target="ATG101">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="PIK3R4" target="ATG7">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="PIK3R4" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R4" target="BECN2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PIK3R4" target="MTOR">
+      <data key="d0">777</data>
+    </edge>
+    <edge source="PIK3R4" target="ATG9A">
+      <data key="d0">857</data>
+    </edge>
+    <edge source="PIK3R4" target="ATG9B">
+      <data key="d0">723</data>
+    </edge>
+    <edge source="MRAS" target="PIK3R3">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="MRAS" target="RASGRP2">
+      <data key="d0">775</data>
+    </edge>
+    <edge source="MRAS" target="RAF1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="MRAS" target="PPP1CC">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="MRAS" target="RASGRP4">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="TRIM72" target="IRS1">
+      <data key="d0">802</data>
+    </edge>
+    <edge source="TBX5" target="GJA5">
+      <data key="d0">808</data>
+    </edge>
+    <edge source="ATP7A" target="SLC30A4">
+      <data key="d0">720</data>
+    </edge>
+    <edge source="MAPK1" target="BAD">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="MAPK1" target="MAP3K7">
+      <data key="d0">926</data>
+    </edge>
+    <edge source="MAPK1" target="NRAS">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="MAPK1" target="DAPK2">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="MAPK1" target="HMGB1">
+      <data key="d0">792</data>
+    </edge>
+    <edge source="MAPK1" target="PPP2CA">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="MAPK1" target="RAF1">
+      <data key="d0">975</data>
+    </edge>
+    <edge source="MAPK1" target="INS">
+      <data key="d0">763</data>
+    </edge>
+    <edge source="MAPK1" target="TBC1D7">
+      <data key="d0">900</data>
+    </edge>
+    <edge source="MAPK1" target="TSC2">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="MAPK1" target="HRAS">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="MAPK1" target="RPS6KB2">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="MAPK1" target="HIF1A">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="MAPK1" target="AKT3">
+      <data key="d0">927</data>
+    </edge>
+    <edge source="MAPK1" target="ELK1">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="NPSR1" target="GFM1">
+      <data key="d0">759</data>
+    </edge>
+    <edge source="THNSL1" target="HDDC3">
+      <data key="d0">831</data>
+    </edge>
+    <edge source="TIMP3" target="MMP9">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="ATG4C" target="GABARAPL2">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="ATG4C" target="ATG14">
+      <data key="d0">709</data>
+    </edge>
+    <edge source="ATG4C" target="ATG3">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="ATG4C" target="GABARAP">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="ATG4C" target="ATG9B">
+      <data key="d0">716</data>
+    </edge>
+    <edge source="ATG4C" target="BECN1">
+      <data key="d0">761</data>
+    </edge>
+    <edge source="ATG4C" target="ULK1">
+      <data key="d0">834</data>
+    </edge>
+    <edge source="ATG4C" target="ATG7">
+      <data key="d0">895</data>
+    </edge>
+    <edge source="PSMC5" target="PSMC1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="PSMC5" target="MTOR">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="PSMC5" target="RUVBL1">
+      <data key="d0">931</data>
+    </edge>
+    <edge source="RRAGB" target="TSC2">
+      <data key="d0">902</data>
+    </edge>
+    <edge source="RRAGB" target="RHEB">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="RRAGB" target="RRAGA">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGB" target="RRAGC">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGB" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGB" target="KICS2">
+      <data key="d0">744</data>
+    </edge>
+    <edge source="RRAGB" target="DEPDC5">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="RAB8A" target="WDR41">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="RAB8A" target="SMCR8">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="CBX2" target="H3C3">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="PRKAA1" target="TSC2">
+      <data key="d0">978</data>
+    </edge>
+    <edge source="PRKAA1" target="ULK1">
+      <data key="d0">872</data>
+    </edge>
+    <edge source="PRKAA1" target="STK11">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="PRKAA1" target="MTOR">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="PRKAA1" target="MAP3K7">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="PRKAA1" target="BECN1">
+      <data key="d0">873</data>
+    </edge>
+    <edge source="PRKAA1" target="TBC1D7">
+      <data key="d0">902</data>
+    </edge>
+    <edge source="EIF2AK4" target="EIF2S1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="EIF2AK4" target="MTOR">
+      <data key="d0">768</data>
+    </edge>
+    <edge source="VMP1" target="ATG14">
+      <data key="d0">701</data>
+    </edge>
+    <edge source="VMP1" target="BECN2">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="VMP1" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="VMP1" target="ATG101">
+      <data key="d0">759</data>
+    </edge>
+    <edge source="VMP1" target="TP53INP2">
+      <data key="d0">964</data>
+    </edge>
+    <edge source="MMP9" target="PTEN">
+      <data key="d0">766</data>
+    </edge>
+    <edge source="MMP9" target="HIF1A">
+      <data key="d0">824</data>
+    </edge>
+    <edge source="CUL3" target="GLI1">
+      <data key="d0">945</data>
+    </edge>
+    <edge source="CUL3" target="SKP1">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="CUL3" target="WNK4">
+      <data key="d0">890</data>
+    </edge>
+    <edge source="CUL3" target="BECN1">
+      <data key="d0">729</data>
+    </edge>
+    <edge source="CUL3" target="CUL5">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="CUL3" target="SPOPL">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NDUFV2" target="NDUFB10">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="NDUFV2" target="COX7A1">
+      <data key="d0">881</data>
+    </edge>
+    <edge source="LAMP1" target="GABARAPL2">
+      <data key="d0">752</data>
+    </edge>
+    <edge source="LAMP1" target="CTSD">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="LAMP1" target="MTOR">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="LAMP1" target="BECN1">
+      <data key="d0">852</data>
+    </edge>
+    <edge source="LAMP1" target="DEPDC5">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="LAMP1" target="ATG7">
+      <data key="d0">738</data>
+    </edge>
+    <edge source="PRKCQ" target="MAP3K7">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="PRKCQ" target="IRS1">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="COX7A1" target="NDUFB10">
+      <data key="d0">859</data>
+    </edge>
+    <edge source="PPP1CC" target="EIF2S1">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="PPP1CC" target="ACTG1">
+      <data key="d0">749</data>
+    </edge>
+    <edge source="ATG9B" target="ATG14">
+      <data key="d0">726</data>
+    </edge>
+    <edge source="ATG9B" target="ULK1">
+      <data key="d0">895</data>
+    </edge>
+    <edge source="ATG9B" target="ATG7">
+      <data key="d0">740</data>
+    </edge>
+    <edge source="ATG9B" target="BECN1">
+      <data key="d0">818</data>
+    </edge>
+    <edge source="ATG9B" target="ATG9A">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="RILP" target="DYNC1LI1">
+      <data key="d0">865</data>
+    </edge>
+    <edge source="ERN1" target="EIF2S1">
+      <data key="d0">894</data>
+    </edge>
+    <edge source="ERN1" target="ITPR1">
+      <data key="d0">740</data>
+    </edge>
+    <edge source="ERN1" target="PRORP">
+      <data key="d0">726</data>
+    </edge>
+    <edge source="ULK1" target="GABARAPL2">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="ULK1" target="TSC2">
+      <data key="d0">731</data>
+    </edge>
+    <edge source="ULK1" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ULK1" target="RHEB">
+      <data key="d0">830</data>
+    </edge>
+    <edge source="ULK1" target="ATG3">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="ULK1" target="WIPI2">
+      <data key="d0">944</data>
+    </edge>
+    <edge source="ULK1" target="GABARAP">
+      <data key="d0">996</data>
+    </edge>
+    <edge source="ULK1" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ULK1" target="BECN2">
+      <data key="d0">987</data>
+    </edge>
+    <edge source="ULK1" target="ATG7">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="ULK1" target="SMCR8">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="ULK1" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ULK1" target="ATG101">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ULK1" target="PPP2CA">
+      <data key="d0">917</data>
+    </edge>
+    <edge source="ULK1" target="ATG9A">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="INS" target="CTSD">
+      <data key="d0">846</data>
+    </edge>
+    <edge source="INS" target="IRS1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="INS" target="MTOR">
+      <data key="d0">882</data>
+    </edge>
+    <edge source="INS" target="PTEN">
+      <data key="d0">869</data>
+    </edge>
+    <edge source="INS" target="KNG1">
+      <data key="d0">796</data>
+    </edge>
+    <edge source="INS" target="FGFR1">
+      <data key="d0">965</data>
+    </edge>
+    <edge source="INS" target="HRAS">
+      <data key="d0">704</data>
+    </edge>
+    <edge source="AKT3" target="TSC2">
+      <data key="d0">968</data>
+    </edge>
+    <edge source="AKT3" target="PIK3R3">
+      <data key="d0">973</data>
+    </edge>
+    <edge source="AKT3" target="RPS6KB2">
+      <data key="d0">939</data>
+    </edge>
+    <edge source="AKT3" target="MTOR">
+      <data key="d0">960</data>
+    </edge>
+    <edge source="AKT3" target="PTEN">
+      <data key="d0">825</data>
+    </edge>
+    <edge source="AKT3" target="BAD">
+      <data key="d0">920</data>
+    </edge>
+    <edge source="AKT3" target="RAF1">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="AKT3" target="PPP2CA">
+      <data key="d0">787</data>
+    </edge>
+    <edge source="AKT3" target="TBC1D7">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="ATG7" target="GABARAPL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG7" target="ATG14">
+      <data key="d0">951</data>
+    </edge>
+    <edge source="ATG7" target="ATG3">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG7" target="WIPI2">
+      <data key="d0">902</data>
+    </edge>
+    <edge source="ATG7" target="GABARAP">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG7" target="ATG101">
+      <data key="d0">821</data>
+    </edge>
+    <edge source="ATG7" target="BECN2">
+      <data key="d0">759</data>
+    </edge>
+    <edge source="ATG7" target="BECN1">
+      <data key="d0">983</data>
+    </edge>
+    <edge source="ATG7" target="ATG9A">
+      <data key="d0">877</data>
+    </edge>
+    <edge source="ATG7" target="MTOR">
+      <data key="d0">772</data>
+    </edge>
+    <edge source="HIF1A" target="MTOR">
+      <data key="d0">789</data>
+    </edge>
+    <edge source="HIF1A" target="PTEN">
+      <data key="d0">830</data>
+    </edge>
+    <edge source="ATG101" target="GABARAPL2">
+      <data key="d0">822</data>
+    </edge>
+    <edge source="ATG101" target="ATG14">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="ATG101" target="RHEB">
+      <data key="d0">735</data>
+    </edge>
+    <edge source="ATG101" target="ATG3">
+      <data key="d0">857</data>
+    </edge>
+    <edge source="ATG101" target="WIPI2">
+      <data key="d0">849</data>
+    </edge>
+    <edge source="ATG101" target="WDR41">
+      <data key="d0">785</data>
+    </edge>
+    <edge source="ATG101" target="GABARAP">
+      <data key="d0">837</data>
+    </edge>
+    <edge source="ATG101" target="ATG9A">
+      <data key="d0">871</data>
+    </edge>
+    <edge source="ATG101" target="PPP2CA">
+      <data key="d0">905</data>
+    </edge>
+    <edge source="ATG101" target="MTOR">
+      <data key="d0">977</data>
+    </edge>
+    <edge source="ATG101" target="SMCR8">
+      <data key="d0">895</data>
+    </edge>
+    <edge source="ATG101" target="BECN2">
+      <data key="d0">947</data>
+    </edge>
+    <edge source="ATG101" target="BECN1">
+      <data key="d0">988</data>
+    </edge>
+    <edge source="TBC1D7" target="TSC2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TBC1D7" target="RHEB">
+      <data key="d0">982</data>
+    </edge>
+    <edge source="TBC1D7" target="DDIT4">
+      <data key="d0">938</data>
+    </edge>
+    <edge source="TBC1D7" target="RRAGC">
+      <data key="d0">710</data>
+    </edge>
+    <edge source="TBC1D7" target="RRAGA">
+      <data key="d0">703</data>
+    </edge>
+    <edge source="SLC30A4" target="SLC39A13">
+      <data key="d0">774</data>
+    </edge>
+    <edge source="BECN2" target="GABARAPL2">
+      <data key="d0">953</data>
+    </edge>
+    <edge source="BECN2" target="ATG14">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BECN2" target="ITPR1">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="BECN2" target="GABARAP">
+      <data key="d0">951</data>
+    </edge>
+    <edge source="BECN2" target="HMGB1">
+      <data key="d0">958</data>
+    </edge>
+    <edge source="BECN2" target="BECN1">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="BECN2" target="DAPK2">
+      <data key="d0">910</data>
+    </edge>
+    <edge source="WIPI2" target="GABARAPL2">
+      <data key="d0">940</data>
+    </edge>
+    <edge source="WIPI2" target="ATG14">
+      <data key="d0">935</data>
+    </edge>
+    <edge source="WIPI2" target="ATG3">
+      <data key="d0">909</data>
+    </edge>
+    <edge source="WIPI2" target="ATG9A">
+      <data key="d0">831</data>
+    </edge>
+    <edge source="WIPI2" target="GABARAP">
+      <data key="d0">893</data>
+    </edge>
+    <edge source="WIPI2" target="BECN1">
+      <data key="d0">939</data>
+    </edge>
+    <edge source="KICS2" target="DEPDC5">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="KICS2" target="RRAGC">
+      <data key="d0">742</data>
+    </edge>
+    <edge source="KICS2" target="RRAGA">
+      <data key="d0">711</data>
+    </edge>
+    <edge source="EIF2S1" target="MTOR">
+      <data key="d0">805</data>
+    </edge>
+    <edge source="EIF2S1" target="EIF2AK3">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="ACTR3" target="ACTG1">
+      <data key="d0">936</data>
+    </edge>
+    <edge source="ACTR3" target="CAPZB">
+      <data key="d0">774</data>
+    </edge>
+    <edge source="CTSD" target="CTSL">
+      <data key="d0">897</data>
+    </edge>
+    <edge source="CAPZB" target="DCTN2">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="SMCR8" target="TANK">
+      <data key="d0">925</data>
+    </edge>
+    <edge source="SMCR8" target="WDR41">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="SKP1" target="PPP2CA">
+      <data key="d0">703</data>
+    </edge>
+    <edge source="SKP1" target="CUL5">
+      <data key="d0">862</data>
+    </edge>
+    <edge source="HRAS" target="PIK3R3">
+      <data key="d0">922</data>
+    </edge>
+    <edge source="HRAS" target="RASGRP2">
+      <data key="d0">948</data>
+    </edge>
+    <edge source="HRAS" target="NRAS">
+      <data key="d0">932</data>
+    </edge>
+    <edge source="HRAS" target="PTEN">
+      <data key="d0">823</data>
+    </edge>
+    <edge source="HRAS" target="FGFR1">
+      <data key="d0">962</data>
+    </edge>
+    <edge source="HRAS" target="RAF1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="HRAS" target="RASGRP4">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="PARD6A" target="PTEN">
+      <data key="d0">909</data>
+    </edge>
+    <edge source="RRAGA" target="TSC2">
+      <data key="d0">934</data>
+    </edge>
+    <edge source="RRAGA" target="RHEB">
+      <data key="d0">969</data>
+    </edge>
+    <edge source="RRAGA" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGA" target="RRAGC">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGA" target="DEPDC5">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TEX10" target="RUVBL1">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="RAF1" target="RHEB">
+      <data key="d0">877</data>
+    </edge>
+    <edge source="RAF1" target="PIK3R3">
+      <data key="d0">913</data>
+    </edge>
+    <edge source="RAF1" target="NRAS">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RAF1" target="BAD">
+      <data key="d0">985</data>
+    </edge>
+    <edge source="RAF1" target="PPP2CA">
+      <data key="d0">787</data>
+    </edge>
+    <edge source="PPP2CA" target="RPS6KB2">
+      <data key="d0">963</data>
+    </edge>
+    <edge source="RASGRP2" target="NRAS">
+      <data key="d0">954</data>
+    </edge>
+    <edge source="ITPR1" target="BECN1">
+      <data key="d0">998</data>
+    </edge>
+    <edge source="TAF5L" target="MAP3K7">
+      <data key="d0">742</data>
+    </edge>
+    <edge source="BICD2" target="DYNC1LI1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BICD2" target="DCTN2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="TUBB2A" target="ACTG1">
+      <data key="d0">725</data>
+    </edge>
+    <edge source="ATG3" target="GABARAPL2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG3" target="ATG14">
+      <data key="d0">864</data>
+    </edge>
+    <edge source="ATG3" target="BECN1">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="ATG3" target="GABARAP">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG3" target="CFLAR">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="ATG3" target="ATG9A">
+      <data key="d0">734</data>
+    </edge>
+    <edge source="LIFR" target="PIK3R3">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="DAPK2" target="BECN1">
+      <data key="d0">972</data>
+    </edge>
+    <edge source="PIK3R3" target="NRAS">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PIK3R3" target="PTEN">
+      <data key="d0">955</data>
+    </edge>
+    <edge source="PIK3R3" target="MTOR">
+      <data key="d0">937</data>
+    </edge>
+    <edge source="PIK3R3" target="FGFR1">
+      <data key="d0">923</data>
+    </edge>
+    <edge source="PIK3R3" target="IRS1">
+      <data key="d0">997</data>
+    </edge>
+    <edge source="EPC1" target="RUVBL1">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="FGFR1" target="IRS1">
+      <data key="d0">834</data>
+    </edge>
+    <edge source="FGFR1" target="NRAS">
+      <data key="d0">966</data>
+    </edge>
+    <edge source="PTEN" target="TSC2">
+      <data key="d0">889</data>
+    </edge>
+    <edge source="PTEN" target="RHEB">
+      <data key="d0">805</data>
+    </edge>
+    <edge source="PTEN" target="IRS1">
+      <data key="d0">792</data>
+    </edge>
+    <edge source="PTEN" target="STK11">
+      <data key="d0">979</data>
+    </edge>
+    <edge source="PTEN" target="MTOR">
+      <data key="d0">942</data>
+    </edge>
+    <edge source="PTEN" target="NRAS">
+      <data key="d0">872</data>
+    </edge>
+    <edge source="ATG14" target="GABARAPL2">
+      <data key="d0">994</data>
+    </edge>
+    <edge source="ATG14" target="SNAP29">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="ATG14" target="GABARAP">
+      <data key="d0">993</data>
+    </edge>
+    <edge source="ATG14" target="ATG9A">
+      <data key="d0">887</data>
+    </edge>
+    <edge source="ATG14" target="BECN1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="GLI1" target="SPOPL">
+      <data key="d0">952</data>
+    </edge>
+    <edge source="IRS1" target="MTOR">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="IRS1" target="RPS6KB2">
+      <data key="d0">986</data>
+    </edge>
+    <edge source="IRS1" target="BECN1">
+      <data key="d0">921</data>
+    </edge>
+    <edge source="RRAGC" target="TSC2">
+      <data key="d0">888</data>
+    </edge>
+    <edge source="RRAGC" target="RHEB">
+      <data key="d0">971</data>
+    </edge>
+    <edge source="RRAGC" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RRAGC" target="DEPDC5">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="GABARAPL2" target="GABARAP">
+      <data key="d0">964</data>
+    </edge>
+    <edge source="GABARAPL2" target="BECN1">
+      <data key="d0">992</data>
+    </edge>
+    <edge source="GABARAPL2" target="ATG9A">
+      <data key="d0">814</data>
+    </edge>
+    <edge source="GABARAPL2" target="MTOR">
+      <data key="d0">706</data>
+    </edge>
+    <edge source="GABARAPL2" target="TP53INP2">
+      <data key="d0">974</data>
+    </edge>
+    <edge source="BECN1" target="GABARAP">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="BECN1" target="HMGB1">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="BECN1" target="MTOR">
+      <data key="d0">891</data>
+    </edge>
+    <edge source="BECN1" target="ATG9A">
+      <data key="d0">865</data>
+    </edge>
+    <edge source="RHEB" target="TSC2">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RHEB" target="MTOR">
+      <data key="d0">999</data>
+    </edge>
+    <edge source="RHEB" target="RPS6KB2">
+      <data key="d0">904</data>
+    </edge>
+    <edge source="RHEB" target="DDIT4">
+      <data key="d0">742</data>
+    </edge>
+    <edge source="RHEB" target="DEPDC5">
+      <data key="d0">753</data>
+    </edge>
+    <edge source="ACTG1" target="RUVBL1">
+      <data key="d0">763</data>
+    </edge>
+    <edge source="H3C3" target="RUVBL1">
+      <data key="d0">885</data>
+    </edge>
+    <edge source="CPLX1" target="SNAP29">
+      <data key="d0">767</data>
+    </edge>
+    <edge source="DEPDC5" target="TSC2">
+      <data key="d0">702</data>
+    </edge>
+    <edge source="DEPDC5" target="MTOR">
+      <data key="d0">756</data>
+    </edge>
+    <edge source="STK11" target="TSC2">
+      <data key="d0">857</data>
+    </edge>
+    <edge source="STK11" target="MTOR">
+      <data key="d0">791</data>
+    </edge>
+    <edge source="TP53INP2" target="GABARAP">
+      <data key="d0">959</data>
+    </edge>
+    <edge source="DYNC1LI1" target="DCTN2">
+      <data key="d0">911</data>
+    </edge>
+    <edge source="DDIT4" target="TSC2">
+      <data key="d0">991</data>
+    </edge>
+    <edge source="DDIT4" target="MTOR">
+      <data key="d0">800</data>
+    </edge>
+    <edge source="TSC2" target="RPS6KB2">
+      <data key="d0">908</data>
+    </edge>
+    <edge source="TSC2" target="MTOR">
+      <data key="d0">990</data>
+    </edge>
+    <edge source="MTOR" target="RPS6KB2">
+      <data key="d0">995</data>
+    </edge>
+    <edge source="MTOR" target="RUVBL1">
+      <data key="d0">771</data>
+    </edge>
+    <edge source="MTOR" target="NRAS">
+      <data key="d0">705</data>
+    </edge>
+    <edge source="NRAS" target="RASGRP4">
+      <data key="d0">931</data>
+    </edge>
+  </graph>
+</graphml>
