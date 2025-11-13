@@ -8,6 +8,7 @@ scipy
 
 # Redes y propagación
 networkx
+python-louvain
 tqdm
 
 # Visualización
