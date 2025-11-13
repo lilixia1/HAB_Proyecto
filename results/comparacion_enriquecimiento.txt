@@ -1,0 +1,44 @@
+=== Comparación de Enriquecimiento ===
+
+Términos comunes (3):
+Proteoglycans in cancer
+Pathways of neurodegeneration
+Shigellosis
+
+Términos únicos en Semillas (17):
+FoxO signaling pathway
+PD-L1 expression and PD-1 checkpoint pathway in cancer
+Autophagy
+Mitophagy
+Insulin signaling pathway
+Spinocerebellar ataxia
+Apoptosis
+Colorectal cancer
+PI3K-Akt signaling pathway
+AMPK signaling pathway
+Growth hormone synthesis, secretion and action
+Longevity regulating pathway
+Apelin signaling pathway
+Alzheimer disease
+mTOR signaling pathway
+Kaposi sarcoma-associated herpesvirus infection
+Choline metabolism in cancer
+
+Términos únicos en Candidatos (17):
+Parkinson disease
+Huntington disease
+ErbB signaling pathway
+Leukocyte transendothelial migration
+Thermogenesis
+Pathways in cancer
+Hepatocellular carcinoma
+Amyotrophic lateral sclerosis
+Rap1 signaling pathway
+Neutrophil extracellular trap formation
+Melanoma
+Regulation of actin cytoskeleton
+Salmonella infection
+Diabetic cardiomyopathy
+Oxidative phosphorylation
+MAPK signaling pathway
+Ras signaling pathway
