@@ -182,7 +182,7 @@ Los resultados muestran un patrón claro y biológicamente coherente entre lso d
 
 ##### Enriquecimiento de genes semilla
 
-![Semillas](results\top_terms_Semillas.png)
+![Semillas](/results/top_terms_Semillas.png)
 
 Los genes semilla recuperan exactamente las rutas esperadas del proceso autofagico. La presencia simultánea de reguladores como **mTOR**, **AMPK** y **FoxO** refuerza que el conjunto está bien definido y sirve como un control positivo del análisis.
 
@@ -190,7 +190,7 @@ Esto sirve de validación de que el pipeline de enriquecimiento funciona correct
 
 ##### Enriquecimiento de genes candidatos
 
-![Candidatos](results\top_terms_Candidatos.png)
+![Candidatos](/results/top_terms_Candidatos.png)
 
 Las rutas que se muestran no son directamente de la autofagia, sino que son procesos de **señalización upstream** que regulan o modulan la autofagia.
 
