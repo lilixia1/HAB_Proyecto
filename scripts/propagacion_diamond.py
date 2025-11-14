@@ -80,7 +80,7 @@ def cargar_red_conocida(fichero, umbral=UMBRAL_SCORE):
                 return interactions
         
         except Exception as e:
-                print(f"❌ Error al cargar los datos de {fichero}: {e}")
+                print(f"Error al cargar los datos de {fichero}: {e}")
                 return None
 
 def construir_red(interactions_df, SEED_GENES_HUGO):
@@ -143,7 +143,7 @@ def diamond_iteration_of_first_X_nodes(G, S_valid, X, alpha=1):
         cluster_nodes = set(S_valid) # USAMOS SOLO LAS SEMILLAS VÁLIDAS
         
         if len(G.nodes) == 0 or not S_valid:
-                print("❌ Grafo vacío o no hay genes semilla válidos para iniciar DIAMOnD.")
+                print("Grafo vacío o no hay genes semilla válidos para iniciar DIAMOnD.")
                 return []
 
         gamma_ln = compute_all_gamma_ln(len(G.nodes))
@@ -159,7 +159,7 @@ def diamond_iteration_of_first_X_nodes(G, S_valid, X, alpha=1):
                 candidate_nodes -= cluster_nodes
 
                 if not candidate_nodes:
-                        print("⚠️ Todos los nodos vecinos han sido añadidos. Deteniendo la propagación.")
+                        print("Todos los nodos vecinos han sido añadidos. Deteniendo la propagación.")
                         break
 
                 for node in tqdm(candidate_nodes, desc=f"DIAMOnD Iteración {len(added_nodes) + 1}/{X} (Cluster: {len(cluster_nodes)})"):
@@ -185,7 +185,7 @@ def diamond_iteration_of_first_X_nodes(G, S_valid, X, alpha=1):
                         added_nodes.append(next_node)
                         cluster_nodes.add(next_node)
                 else:
-                        print(f"⚠️ No se encontró ningún candidato significativo en la iteración {len(added_nodes) + 1}. Deteniendo.")
+                        print(f"No se encontró ningún candidato significativo en la iteración {len(added_nodes) + 1}. Deteniendo.")
                         break
                         
         return added_nodes
@@ -204,7 +204,7 @@ def guardar_genes_semilla_conectados(seed_genes_valid, output_file):
 
         results_df = pd.DataFrame(data)
         results_df.to_csv(output_file, sep="\t", index=False)
-        print(f"✅ Genes semilla CONECTADOS guardados en: {output_file} ({len(seed_genes_valid)} genes)")
+        print(f"Genes semilla CONECTADOS guardados en: {output_file} ({len(seed_genes_valid)} genes)")
 
 
 def analizar_y_guardar_genes_aislados(seed_genes_hugo, seed_genes_valid, umbral, output_file):
@@ -219,11 +219,11 @@ def analizar_y_guardar_genes_aislados(seed_genes_hugo, seed_genes_valid, umbral,
         isolated_seeds = set(seed_genes_hugo) - valid_seeds_set
         
         if not isolated_seeds:
-                print("\n✅ Todos los genes semilla pudieron ser validados (ninguno aislado de la red).")
+                print("\nTodos los genes semilla pudieron ser validados (ninguno aislado de la red).")
                 return
 
         # --- CONTROL DE IMPRESIÓN ---
-        print(f"\n⚠️ CONTROL: {len(isolated_seeds)} Genes Semilla AISLADOS de la red principal:")
+        print(f"\nCONTROL: {len(isolated_seeds)} Genes Semilla AISLADOS de la red principal:")
         for gene in sorted(list(isolated_seeds)):
                 print(f"   -> {gene}")
         print("-----------------------------------------------------")
@@ -239,7 +239,7 @@ def analizar_y_guardar_genes_aislados(seed_genes_hugo, seed_genes_valid, umbral,
                 
         results_df = pd.DataFrame(data)
         results_df.to_csv(output_file, sep="\t", index=False)
-        print(f"⚠️ {len(isolated_seeds)} genes semilla aislados guardados en: {output_file}")
+        print(f"{len(isolated_seeds)} genes semilla aislados guardados en: {output_file}")
 
 
 def guardar_resultados(seed_genes_hugo, diamond_genes_hugo, archivo_salida):
@@ -281,7 +281,7 @@ def graficar_red_enriquecida(G, seed_genes_valid, diamond_genes_hugo, output_ima
                 # Aumentar iteraciones para estabilidad
                 pos = nx.spring_layout(subgraph, k=0.15, iterations=50) 
         except Exception as e:
-                print(f"❌ Error al calcular el layout: {e}. No se puede dibujar el grafo.")
+                print(f"Error al calcular el layout: {e}. No se puede dibujar el grafo.")
                 return None 
         
         plt.figure(figsize=(18, 18))
@@ -326,9 +326,9 @@ def graficar_red_enriquecida(G, seed_genes_valid, diamond_genes_hugo, output_ima
         
         try:
                 plt.savefig(output_image_file, format='png', dpi=300, bbox_inches='tight')
-                print(f"✅ Grafo de DIAMOnD guardado como imagen en: {output_image_file}")
+                print(f"Grafo de DIAMOnD guardado como imagen en: {output_image_file}")
         except Exception as e:
-                print(f"❌ Error al guardar la imagen: {e}")
+                print(f"Error al guardar la imagen: {e}")
                 
         plt.close()
 
@@ -365,7 +365,7 @@ def main():
         )
         args = parser.parse_args()
         
-        print(f"--- 💎 Iniciando Propagación DIAMOnD para {nodos_añadidos} Nodos ---")
+        print(f"--- Iniciando Propagación DIAMOnD para {nodos_añadidos} Nodos ---")
         
         # 2. Creación de la Carpeta de Resultados
         # Se usa sys.argv[0] para obtener la ruta del script
@@ -380,7 +380,7 @@ def main():
 
         if not os.path.exists(RESULTS_DIR):
                 os.makedirs(RESULTS_DIR)
-                print(f"📁 Carpeta de resultados creada: {RESULTS_DIR}")
+                print(f"Carpeta de resultados creada: {RESULTS_DIR}")
 
         output_tsv_path = os.path.join(RESULTS_DIR, args.output)
         output_plot_path = os.path.join(RESULTS_DIR, args.plot)
@@ -409,7 +409,7 @@ def main():
 
         # Análisis temprano si no hay semillas válidas
         if not genes_semilla_valid:
-                print("❌ Ningún gen semilla está conectado a la red con el umbral especificado. Abortando DIAMOnD.")
+                print("Ningún gen semilla está conectado a la red con el umbral especificado. Abortando DIAMOnD.")
                 analizar_y_guardar_genes_aislados(genes_semilla_hugo, genes_semilla_valid, UMBRAL_SCORE, output_isolated_path)
                 return
         

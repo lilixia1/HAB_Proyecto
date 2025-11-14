@@ -5,6 +5,9 @@ import pandas as pd
 import gseapy as gp
 import networkx as nx
 import matplotlib.pyplot as plt
+import argparse 
+import sys
+
 
 try:
     import community as community_louvain
@@ -13,16 +16,17 @@ except Exception:
     community_louvain = None
     HAS_LOUVAIN = False
 
-# Configuración
+# Configuración base (Se mantiene el cálculo de directorios)
+try:
+    script_path = os.path.abspath(sys.argv[0])
+except IndexError:
+    script_path = os.path.abspath(__file__)
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(script_path))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-GENES_SEMILLA = os.path.join(RESULTS_DIR, "connected_seed_genes.tsv")
-GENES_DIAMOND = os.path.join(RESULTS_DIR, "diamond_results.tsv")
-INTERACCIONES_FILE = os.path.join(DATA_DIR, "string_network_filtered_hugo-400.tsv") # STRING/BioGRID/propio
 PPI_SCORE_UMBRAL = 700
 
 # Funciones auxiliares
@@ -91,8 +95,6 @@ def comparar_enriquecimientos(df1, df2):
     return comun, unicos1, unicos2
 
 # Gráfico con los términos más significativos 
-import numpy as np
-
 def graficar_top_terms(df, conjunto_nombre, top_n=10):
     """Crea gráfico de barras de términos más significativos (robusto a nombres de columnas)."""
     
@@ -183,13 +185,47 @@ def graficar_metrica(df, metrica, title, top_n=20):
 
 # Main
 
+
 def main():
-    print("\n=== Enriquecimiento Funcional + Análisis funcional===")
+    # --- 0. CONFIGURACIÓN DE ARGUMENTOS ---
+    parser = argparse.ArgumentParser(
+        description="Realiza el análisis estructural y de enriquecimiento funcional de los resultados DIAMOnD."
+    )
+    parser.add_argument(
+        '--connected-seeds', 
+        required=True, 
+        help="Ruta al archivo de genes semilla conectados (connected_seed_genes.tsv)."
+    )
+    parser.add_argument(
+        '--diamond-results', 
+        required=True, 
+        help="Ruta al archivo de resultados de DIAMOnD (diamond_results.tsv)."
+    )
+    parser.add_argument(
+        '--network-file', 
+        required=True, 
+        help="Ruta al archivo de interacciones PPI original (p. ej., string_network_filtered.tsv)."
+    )
+    args = parser.parse_args()
+    
+    genes_semilla_path = args.connected_seeds
+    genes_diamond_path = args.diamond_results
+    interacciones_file_path = args.network_file
+    
+    print("\n=== Enriquecimiento Funcional + Análisis Estructural ===")
     
     # 1. Cargar genes
-    genes_semilla = cargar_genes(GENES_SEMILLA)
-    genes_diamond = cargar_genes(GENES_DIAMOND, columna="HUGO_Symbol")
+    try:
+        genes_semilla = cargar_genes(genes_semilla_path)
+        genes_diamond = cargar_genes(genes_diamond_path)
+    except FileNotFoundError as e:
+        print(f"ERROR: {e}")
+        sys.exit(1)
     
+    if not genes_semilla and not genes_diamond:
+        print("No hay genes semilla conectados ni genes DIAMOnD. Finalizando análisis.")
+        return
+
     # 2. Enriquecimiento para cada grupo
     enr_semilla = realizar_enriquecimiento(genes_semilla, "semillas")
     enr_diamond = realizar_enriquecimiento(genes_diamond, "candidatos")
@@ -211,13 +247,16 @@ def main():
     
     print(f"\nResumen comparativo guardado en: {resumen_path}")
 
-    # 6. Análisis estructual
-    print("\n--- Construyendo red PPI ---")
-    G = construir_grafo(INTERACCIONES_FILE, umbral=PPI_SCORE_UMBRAL)
+    # 6. Análisis estructural
+    print("\n--- Construyendo subred PPI ---")
+    G = construir_grafo(interacciones_file_path, umbral=PPI_SCORE_UMBRAL)
     print(f"Nodos totales en la red: {G.number_of_nodes()}")
-    print(f"Enlaces totales en la red: {G.number_of_edges()}")
-
+        
     df_struct, modularidad, subgraph = calcular_propiedades(G, genes_semilla, genes_diamond)
+    
+    if df_struct.empty:
+        print("No se pudo realizar el análisis estructural (subred vacía).")
+        return
 
     # Guardar métricas y subred
     estructural_path = os.path.join(RESULTS_DIR, "analisis_estructural.tsv")
@@ -229,16 +268,16 @@ def main():
         print("Modularidad no calculada (instala 'python-louvain' para obtenerla).")
 
     # Gráficos de métricas
-    graficar_metrica(df_struct, "Grado", "Top 20 genes por grado")
-    graficar_metrica(df_struct, "Centralidad", "Top 20 genes por centralidad")
-    graficar_metrica(df_struct, "Betweenness", "Top 20 genes por betweenness")
+    graficar_metrica(df_struct, "Grado", "Top 20 genes por grado en subred")
+    graficar_metrica(df_struct, "Centralidad", "Top 20 genes por centralidad de grado en subred")
+    graficar_metrica(df_struct, "Betweenness", "Top 20 genes por Betweenness en subred")
 
     # Exportar subred a GraphML (Cytoscape/Gephi)
-    sub_path = os.path.join(RESULTS_DIR, "subred_autofagia.graphml")
+    sub_path = os.path.join(RESULTS_DIR, "subred_enriquecida.graphml")
     nx.write_graphml(subgraph, sub_path)
     print(f"Subred exportada a: {sub_path}")
 
-    print("=== Enriquecimiento completado ===")
+    print("=== Análisis completado ===")
 
 if __name__ == "__main__":
     main()

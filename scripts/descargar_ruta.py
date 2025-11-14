@@ -1,47 +1,85 @@
 import gseapy as gp
 import os
+import argparse
+import sys
 
-# 1. Elige la librería de rutas
-# Puedes probar con: "KEGG_2021_Human", "Reactome_2022", "KEGG_2019_Human", etc.
-LIBRARY = "KEGG_2021_Human"
+def main():
+    # 1. Configuración de Argumentos
+    parser = argparse.ArgumentParser(
+        description="Descarga genes de una ruta específica de una librería de GSEAPY.",
+        formatter_class=argparse.RawTextHelpFormatter
+    )
+    parser.add_argument(
+        '--library', 
+        type=str, 
+        required=True, 
+        help="Librería de rutas a usar (ej: KEGG_2021_Human, Reactome_2022)."
+    )
+    parser.add_argument(
+        '--pathway', 
+        type=str, 
+        required=True, 
+        help="Nombre o parte del nombre de la ruta a buscar (ej: autophagy)."
+    )
+    parser.add_argument(
+        '--output-file', 
+        type=str, 
+        default="genes_ruta.txt", 
+        help="Nombre del archivo de salida en la carpeta 'data/'."
+    )
+    args = parser.parse_args()
 
-# 2. Nombre (o parte del nombre) de la ruta que quieres
-BUSCADA = "autophagy"  
+    LIBRARY = args.library
+    BUSCADA = args.pathway
+    OUTPUT_FILENAME = args.output_file
 
-# 3. Descargar todas las rutas de esa librería
-genesets = gp.get_library(name=LIBRARY, organism="Human")
+    print(f"--- 1. INICIANDO DESCARGA DE RUTA ---")
+    print(f"Librería: {LIBRARY}, Ruta Buscada: {BUSCADA}")
+    
+    # 2. Descargar todas las rutas de esa librería
+    try:
+        genesets = gp.get_library(name=LIBRARY, organism="Human")
+    except Exception as e:
+        print(f"ERROR: No se pudo descargar la librería {LIBRARY}. {e}")
+        sys.exit(1)
 
-ruta_encontrada = None
-genes_ruta = None
 
-for nombre, genes in genesets.items():
-    if BUSCADA.lower() in nombre.lower():
-        ruta_encontrada = nombre
-        genes_ruta = genes
-        break
+    ruta_encontrada = None
+    genes_ruta = None
 
-if ruta_encontrada is None:
-    raise ValueError(f"No se encontró ninguna ruta que contenga: {BUSCADA}")
+    for nombre, genes in genesets.items():
+        if BUSCADA.lower() in nombre.lower():
+            ruta_encontrada = nombre
+            genes_ruta = genes
+            break
 
-print(f"Ruta encontrada: {ruta_encontrada}")
-print(f"Número de genes: {len(genes_ruta)}")
+    if ruta_encontrada is None:
+        print(f"ERROR: No se encontró ninguna ruta en {LIBRARY} que contenga: {BUSCADA}")
+        sys.exit(1)
 
-# 4. Guardar a un txt (un gen por línea)
-# Ruta base del proyecto (un nivel por encima del script actual)
-basedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    print(f"Ruta encontrada: {ruta_encontrada}")
+    print(f"Número de genes: {len(genes_ruta)}")
 
-# Carpeta donde quieres guardar los datos
-datadir = os.path.join(basedir, "data")
+    # 3. Guardar a un txt (un gen por línea)
+    # Se utiliza la lógica de ruta relativa del usuario (asume que se ejecuta desde una carpeta 'scripts')
+    try:
+        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    except IndexError:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Crear la carpeta si no existe
-os.makedirs(datadir, exist_ok=True)
+    basedir = os.path.dirname(script_dir)
+    datadir = os.path.join(basedir, "data")
 
-output_file = "genes_ruta.txt"
-output_path = os.path.join(datadir, output_file)
+    # Crear la carpeta si no existe
+    os.makedirs(datadir, exist_ok=True)
 
-with open(output_path, "w") as f:
-    for g in genes_ruta:
-        f.write(g + "\n")
+    output_path = os.path.join(datadir, OUTPUT_FILENAME)
 
-print(f"Genes guardados en: data/{output_path}")
+    with open(output_path, "w") as f:
+        for g in genes_ruta:
+            f.write(g + "\n")
 
+    print(f"Genes guardados en: {output_path}")
+
+if __name__ == '__main__':
+    main()
