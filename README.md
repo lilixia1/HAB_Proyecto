@@ -7,10 +7,10 @@ Durante este proyecto se ha desarrollado un pipeline integrado para realizar la 
 * **Enriquecimiento funcional (GSEA/Enrichr)**. Esto lo utilizamos para identificar rutas biológicas, procesos celulares y mecanismos moelculares asociados tanto a los **genes semilla** como a los **genes candidatos**.
 * **Análisis estructural/topológico de redes PPI**. Este análisis se realiza para estudiar el comportamiento de estos genes dentro de una **red de interacciones proteicas**, identificando nodos clave, genes puente, modularidad y roles dentro del propio sistema celular.
 
-El objetivo de este proyecto ha sido expandir la lista de genes de una ruta biológica de interés, que en este caso ha sido **"Autophagy - animal" (KEGG hsa04140)**. Así pues, se va a validar **si los genes candidatos podrían estar funcionalmente o estructuralmente relacionados con la autofagia** y priorizar aquellos con mayor relevancia.
+El objetivo de este proyecto ha sido expandir la lista de genes de una ruta biológica de interés, que en este caso ha sido **"Autophagy - animal" (KEGG hsa04140)**. La autofagia es de enorme interés en biomedicina porque actúa como un mecanismo de control de calidad celular que está implicado en la mayoría de los procesos de salud y enfermedad. Así pues, se va a validar **si los genes candidatos podrían estar funcionalmente o estructuralmente relacionados con la autofagia** y priorizar aquellos con mayor relevancia.
 
 ## 2. Estructura del repositorio
-
+```
 HAB_Proyecto/
 ├── launch.sh                   # Lanzador principal del pipeline secuencial
 ├── requirements.txt            # Dependencias de Python.
@@ -35,7 +35,7 @@ HAB_Proyecto/
     ├── subred_enriquecida.graphml   
     ├── diamond_network.png          
     └── .png                    # Otros gráficos generados del análisis funcional               
-
+```
 ## 3. Instrucciones de ejecución
 
 Primero de todo, hay que instalar las dependencias necesarias para python. Asegúrate de estar en el directorio raíz del proyecto (HAB_Proyecto/) y ejecuta:
